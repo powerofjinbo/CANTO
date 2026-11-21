@@ -1,0 +1,7 @@
+b92536ddd21a7923cb4f59784e4e40cdedd9e6e5eeb81a41644329eb2591f2c0  0001-track_building-match-reconstructed-tracks-on-hit_id-.patch
+5b064f9155dc1d9ebe3e7b3b298116a0e786b8042c2050be4cb7c9d55670810e  0002-ConnectedComponents-on_true_graph_edges-selects-edge.patch
+c4ca7f822007345e756cff6b10ef3cd8bc8bdda69eb001290563e152eff9882e  0003-graph_construction-fix-within-not_within-conditions.patch
+d7448095d689fe4948432854724c2d92c077ba7b45b552c40dde1c2b2de95dbe  0004-graph_construction-raise-when-a-condition-mask-match.patch
+59bebef14bc25814baa7b57babf0595cfba33b69091548313d3412e39ba719e5  0005-Flatten-event_id-before-naming-or-saving-stage-outpu.patch
+c927670868d04abbe62e726b339a0da8df9caf60628db6f6df3195f306569ff8  0006-TrackMLReader-deterministic-event-split-from-id-list.patch
+949e60ed35a204abc6b5d54ea17d9866743243b96380a29380066ebd5ac15dae  0007-Filter-evaluate-in-fixed-2M-edge-chunks-instead-of-c.patch

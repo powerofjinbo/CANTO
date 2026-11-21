@@ -1,0 +1,67 @@
+check,ours,reference,ok
+final_selection_v1_seeds Canto-L (frozen: learned merging) s0 configuration,"mwslmerge,0.1","mwslmerge,0.1",True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s0 eff_primary,0.9879789631855748,0.9879789631855748,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s0 eff_hnl_targets,0.9901369863013698,0.9901369863013698,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s0 eff_w_muons,0.9978598180845372,0.9978598180845372,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s0 eff_ttbar_prompt,0.9655231300519904,0.9655231300519904,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s0 fake_rate_hnl,0.00992646114597334,0.0099264611459733,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s1 configuration,"mwslmerge,0.1","mwslmerge,0.1",True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s1 eff_primary,0.9834710743801653,0.9834710743801652,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s1 eff_hnl_targets,0.9863013698630136,0.9863013698630136,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s1 eff_w_muons,0.9978598180845372,0.9978598180845372,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s1 eff_ttbar_prompt,0.961481537702554,0.961481537702554,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s1 fake_rate_hnl,0.009987841632988562,0.0099878416329885,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s2 configuration,"mwslmerge,0.1","mwslmerge,0.1",True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s2 eff_primary,0.9827197595792637,0.9827197595792636,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s2 eff_hnl_targets,0.9857534246575342,0.9857534246575342,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s2 eff_w_muons,0.9978598180845372,0.9978598180845372,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s2 eff_ttbar_prompt,0.9602861371484953,0.9602861371484952,True
+final_selection_v1_seeds Canto-L (frozen: learned merging) s2 fake_rate_hnl,0.010042095436306565,0.0100420954363065,True
+ranking v3 (HPC3) Canto-B row eff_primary,0.9809666917104933,0.9809666917104932,True
+ranking v3 (HPC3) Canto-B row eff_hnl_targets,0.9841095890410959,0.984109589041096,True
+ranking v3 (HPC3) Canto-B row eff_w_muons,0.9978598180845372,0.9978598180845372,True
+ranking v3 (HPC3) Canto-B row eff_ttbar_prompt,0.9627591615751458,0.9627591615751458,True
+ranking v3 (HPC3) Canto-B row fake_rate_hnl,0.012527013414225954,0.0125270134142259,True
+ranking v3 (HPC3) Canto-B working points,mwslmerge 0.1 (trackbuild_val_lmerge); mwslmerge 0.2 (trackbuild_val_lmerge); mwslmerge 0.1 (trackbuild_val_lmerge),mwslmerge 0.1 (trackbuild_val_lmerge); mwslmerge 0.2 (trackbuild_val_lmerge); mwslmerge 0.1 (trackbuild_val_lmerge),True
+preregistered cut armi_s0,0.37,0.37,True
+preregistered cut armi_s1,0.34,0.34,True
+preregistered cut armi_s2,0.34,0.34,True
+preregistered cut armii_s0,0.36,0.36,True
+preregistered cut armii_s1,0.28,0.28,True
+preregistered cut armii_s2,0.26,0.26,True
+val-best entry = its family row armi_s0,mwslmerge 0.05 (trackbuild_val_fb3_all),mwslmerge 0.05 (trackbuild_val_fb3_all),True
+val-best entry = its family row armi_s0 eff_primary,0.9676934635612322,0.9676934635612322,True
+val-best entry = its family row armi_s0 eff_hnl_targets,0.9747945205479452,0.9747945205479452,True
+val-best entry = its family row armi_s0 eff_w_muons,0.9978598180845372,0.9978598180845372,True
+val-best entry = its family row armi_s0 eff_ttbar_prompt,0.953398353003681,0.953398353003681,True
+val-best entry = its family row armi_s0 fake_rate_hnl,0.013784814890850613,0.013784814890850613,True
+val-best entry = its family row armi_s1,mwslmerge 0.03 (trackbuild_val_fb3_all),mwslmerge 0.03 (trackbuild_val_fb3_all),True
+val-best entry = its family row armi_s1 eff_primary,0.9631855747558227,0.9631855747558227,True
+val-best entry = its family row armi_s1 eff_hnl_targets,0.9715068493150685,0.9715068493150685,True
+val-best entry = its family row armi_s1 eff_w_muons,0.9978598180845372,0.9978598180845372,True
+val-best entry = its family row armi_s1 eff_ttbar_prompt,0.9546506773936473,0.9546506773936473,True
+val-best entry = its family row armi_s1 fake_rate_hnl,0.014706133898942902,0.014706133898942902,True
+val-best entry = its family row armi_s2,mwslmerge 0.05 (trackbuild_val_fb3_all),mwslmerge 0.05 (trackbuild_val_fb3_all),True
+val-best entry = its family row armi_s2 eff_primary,0.9609316303531179,0.9609316303531179,True
+val-best entry = its family row armi_s2 eff_hnl_targets,0.9693150684931506,0.9693150684931506,True
+val-best entry = its family row armi_s2 eff_w_muons,0.9967897271268058,0.9967897271268058,True
+val-best entry = its family row armi_s2 eff_ttbar_prompt,0.9539296421388183,0.9539296421388183,True
+val-best entry = its family row armi_s2 fake_rate_hnl,0.014485627674902838,0.014485627674902838,True
+val-best entry = its family row armii_s0,mwslmerge 0.1 (trackbuild_val_fb3_all),mwslmerge 0.1 (trackbuild_val_fb3_all),True
+val-best entry = its family row armii_s0 eff_primary,0.9797145003756574,0.9797145003756574,True
+val-best entry = its family row armii_s0 eff_hnl_targets,0.9835616438356164,0.9835616438356164,True
+val-best entry = its family row armii_s0 eff_w_muons,0.9967897271268058,0.9967897271268058,True
+val-best entry = its family row armii_s0 eff_ttbar_prompt,0.9480854616523092,0.9480854616523092,True
+val-best entry = its family row armii_s0 fake_rate_hnl,0.015127306903622692,0.015127306903622692,True
+val-best entry = its family row armii_s1,mwslmerge 0.1 (trackbuild_val_fb3_all),mwslmerge 0.1 (trackbuild_val_fb3_all),True
+val-best entry = its family row armii_s1 eff_primary,0.9819684447783621,0.9819684447783621,True
+val-best entry = its family row armii_s1 eff_hnl_targets,0.9852054794520548,0.9852054794520548,True
+val-best entry = its family row armii_s1 eff_w_muons,0.9973247726056714,0.9973247726056714,True
+val-best entry = its family row armii_s1 eff_ttbar_prompt,0.9456946605441918,0.9456946605441918,True
+val-best entry = its family row armii_s1 fake_rate_hnl,0.014976633717502926,0.014976633717502926,True
+val-best entry = its family row armii_s2,mwslmerge 0.1 (trackbuild_val_fb3_all),mwslmerge 0.1 (trackbuild_val_fb3_all),True
+val-best entry = its family row armii_s2 eff_primary,0.976709241172051,0.976709241172051,True
+val-best entry = its family row armii_s2 eff_hnl_targets,0.9819178082191781,0.9819178082191781,True
+val-best entry = its family row armii_s2 eff_w_muons,0.9978598180845372,0.9978598180845372,True
+val-best entry = its family row armii_s2 eff_ttbar_prompt,0.9469090357102197,0.9469090357102197,True
+val-best entry = its family row armii_s2 fake_rate_hnl,0.0147173893523408,0.0147173893523408,True

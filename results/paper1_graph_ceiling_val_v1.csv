@@ -1,0 +1,298 @@
+model,seed,population,variable,bin,k,n,ceiling
+acorn (ttbar),0,hnl_targets,d0,"[0.0, 0.1)",27,27,1
+acorn (ttbar),0,hnl_targets,d0,"[0.1, 1.0)",105,105,1
+acorn (ttbar),0,hnl_targets,d0,"[1.0, 3.0)",151,151,1
+acorn (ttbar),0,hnl_targets,d0,"[10.0, 30.0)",507,508,0.998031
+acorn (ttbar),0,hnl_targets,d0,"[100.0, 300.0)",162,167,0.97006
+acorn (ttbar),0,hnl_targets,d0,"[3.0, 10.0)",346,346,1
+acorn (ttbar),0,hnl_targets,d0,"[30.0, 100.0)",494,502,0.984064
+acorn (ttbar),0,hnl_targets,d0,"[300.0, inf)",13,19,0.684211
+acorn (ttbar),0,hnl_targets,rv,"[0.0, 10.0)",125,125,1
+acorn (ttbar),0,hnl_targets,rv,"[10.0, 30.0)",188,188,1
+acorn (ttbar),0,hnl_targets,rv,"[100.0, 200.0)",438,440,0.995455
+acorn (ttbar),0,hnl_targets,rv,"[200.0, 300.0)",245,246,0.995935
+acorn (ttbar),0,hnl_targets,rv,"[30.0, 100.0)",505,508,0.994094
+acorn (ttbar),0,hnl_targets,rv,"[300.0, inf)",190,199,0.954774
+acorn (ttbar),0,hnl_targets,rv,no vertex,114,119,0.957983
+acorn (ttbar),0,primary,d0,"[0.0, 0.1)",1,1,1
+acorn (ttbar),0,primary,d0,"[0.1, 1.0)",15,15,1
+acorn (ttbar),0,primary,d0,"[1.0, 3.0)",32,32,1
+acorn (ttbar),0,primary,d0,"[10.0, 30.0)",507,508,0.998031
+acorn (ttbar),0,primary,d0,"[100.0, 300.0)",162,167,0.97006
+acorn (ttbar),0,primary,d0,"[3.0, 10.0)",87,87,1
+acorn (ttbar),0,primary,d0,"[30.0, 100.0)",494,502,0.984064
+acorn (ttbar),0,primary,d0,"[300.0, inf)",13,19,0.684211
+acorn (ttbar),0,primary,rv,"[10.0, 30.0)",45,45,1
+acorn (ttbar),0,primary,rv,"[100.0, 200.0)",438,440,0.995455
+acorn (ttbar),0,primary,rv,"[200.0, 300.0)",245,246,0.995935
+acorn (ttbar),0,primary,rv,"[30.0, 100.0)",318,321,0.990654
+acorn (ttbar),0,primary,rv,"[300.0, inf)",190,199,0.954774
+acorn (ttbar),0,primary,rv,no vertex,75,80,0.9375
+acorn (ttbar),0,primary,all,all,1311,1331,0.984974
+acorn (ttbar),0,hnl_targets,all,all,1805,1825,0.989041
+acorn (ttbar),0,w_muons,all,all,1867,1869,0.99893
+acorn (ttbar),0,ttbar_prompt,all,all,52603,52702,0.998122
+acorn (ttbar),1,hnl_targets,d0,"[0.0, 0.1)",27,27,1
+acorn (ttbar),1,hnl_targets,d0,"[0.1, 1.0)",104,105,0.990476
+acorn (ttbar),1,hnl_targets,d0,"[1.0, 3.0)",151,151,1
+acorn (ttbar),1,hnl_targets,d0,"[10.0, 30.0)",506,508,0.996063
+acorn (ttbar),1,hnl_targets,d0,"[100.0, 300.0)",159,167,0.952096
+acorn (ttbar),1,hnl_targets,d0,"[3.0, 10.0)",345,346,0.99711
+acorn (ttbar),1,hnl_targets,d0,"[30.0, 100.0)",490,502,0.976096
+acorn (ttbar),1,hnl_targets,d0,"[300.0, inf)",12,19,0.631579
+acorn (ttbar),1,hnl_targets,rv,"[0.0, 10.0)",125,125,1
+acorn (ttbar),1,hnl_targets,rv,"[10.0, 30.0)",188,188,1
+acorn (ttbar),1,hnl_targets,rv,"[100.0, 200.0)",436,440,0.990909
+acorn (ttbar),1,hnl_targets,rv,"[200.0, 300.0)",243,246,0.987805
+acorn (ttbar),1,hnl_targets,rv,"[30.0, 100.0)",502,508,0.988189
+acorn (ttbar),1,hnl_targets,rv,"[300.0, inf)",189,199,0.949749
+acorn (ttbar),1,hnl_targets,rv,no vertex,111,119,0.932773
+acorn (ttbar),1,primary,d0,"[0.0, 0.1)",1,1,1
+acorn (ttbar),1,primary,d0,"[0.1, 1.0)",15,15,1
+acorn (ttbar),1,primary,d0,"[1.0, 3.0)",32,32,1
+acorn (ttbar),1,primary,d0,"[10.0, 30.0)",506,508,0.996063
+acorn (ttbar),1,primary,d0,"[100.0, 300.0)",159,167,0.952096
+acorn (ttbar),1,primary,d0,"[3.0, 10.0)",87,87,1
+acorn (ttbar),1,primary,d0,"[30.0, 100.0)",490,502,0.976096
+acorn (ttbar),1,primary,d0,"[300.0, inf)",12,19,0.631579
+acorn (ttbar),1,primary,rv,"[10.0, 30.0)",45,45,1
+acorn (ttbar),1,primary,rv,"[100.0, 200.0)",436,440,0.990909
+acorn (ttbar),1,primary,rv,"[200.0, 300.0)",243,246,0.987805
+acorn (ttbar),1,primary,rv,"[30.0, 100.0)",316,321,0.984424
+acorn (ttbar),1,primary,rv,"[300.0, inf)",189,199,0.949749
+acorn (ttbar),1,primary,rv,no vertex,73,80,0.9125
+acorn (ttbar),1,primary,all,all,1302,1331,0.978212
+acorn (ttbar),1,hnl_targets,all,all,1794,1825,0.983014
+acorn (ttbar),1,w_muons,all,all,1867,1869,0.99893
+acorn (ttbar),1,ttbar_prompt,all,all,52582,52702,0.997723
+acorn (ttbar),2,hnl_targets,d0,"[0.0, 0.1)",27,27,1
+acorn (ttbar),2,hnl_targets,d0,"[0.1, 1.0)",104,105,0.990476
+acorn (ttbar),2,hnl_targets,d0,"[1.0, 3.0)",151,151,1
+acorn (ttbar),2,hnl_targets,d0,"[10.0, 30.0)",503,508,0.990157
+acorn (ttbar),2,hnl_targets,d0,"[100.0, 300.0)",159,167,0.952096
+acorn (ttbar),2,hnl_targets,d0,"[3.0, 10.0)",345,346,0.99711
+acorn (ttbar),2,hnl_targets,d0,"[30.0, 100.0)",487,502,0.97012
+acorn (ttbar),2,hnl_targets,d0,"[300.0, inf)",13,19,0.684211
+acorn (ttbar),2,hnl_targets,rv,"[0.0, 10.0)",125,125,1
+acorn (ttbar),2,hnl_targets,rv,"[10.0, 30.0)",188,188,1
+acorn (ttbar),2,hnl_targets,rv,"[100.0, 200.0)",435,440,0.988636
+acorn (ttbar),2,hnl_targets,rv,"[200.0, 300.0)",243,246,0.987805
+acorn (ttbar),2,hnl_targets,rv,"[30.0, 100.0)",501,508,0.98622
+acorn (ttbar),2,hnl_targets,rv,"[300.0, inf)",186,199,0.934673
+acorn (ttbar),2,hnl_targets,rv,no vertex,111,119,0.932773
+acorn (ttbar),2,primary,d0,"[0.0, 0.1)",1,1,1
+acorn (ttbar),2,primary,d0,"[0.1, 1.0)",15,15,1
+acorn (ttbar),2,primary,d0,"[1.0, 3.0)",32,32,1
+acorn (ttbar),2,primary,d0,"[10.0, 30.0)",503,508,0.990157
+acorn (ttbar),2,primary,d0,"[100.0, 300.0)",159,167,0.952096
+acorn (ttbar),2,primary,d0,"[3.0, 10.0)",87,87,1
+acorn (ttbar),2,primary,d0,"[30.0, 100.0)",487,502,0.97012
+acorn (ttbar),2,primary,d0,"[300.0, inf)",13,19,0.684211
+acorn (ttbar),2,primary,rv,"[10.0, 30.0)",45,45,1
+acorn (ttbar),2,primary,rv,"[100.0, 200.0)",435,440,0.988636
+acorn (ttbar),2,primary,rv,"[200.0, 300.0)",243,246,0.987805
+acorn (ttbar),2,primary,rv,"[30.0, 100.0)",315,321,0.981308
+acorn (ttbar),2,primary,rv,"[300.0, inf)",186,199,0.934673
+acorn (ttbar),2,primary,rv,no vertex,73,80,0.9125
+acorn (ttbar),2,primary,all,all,1297,1331,0.974455
+acorn (ttbar),2,hnl_targets,all,all,1789,1825,0.980274
+acorn (ttbar),2,w_muons,all,all,1867,1869,0.99893
+acorn (ttbar),2,ttbar_prompt,all,all,52529,52702,0.996717
+acorn (HNL),0,hnl_targets,d0,"[0.0, 0.1)",27,27,1
+acorn (HNL),0,hnl_targets,d0,"[0.1, 1.0)",104,105,0.990476
+acorn (HNL),0,hnl_targets,d0,"[1.0, 3.0)",151,151,1
+acorn (HNL),0,hnl_targets,d0,"[10.0, 30.0)",506,508,0.996063
+acorn (HNL),0,hnl_targets,d0,"[100.0, 300.0)",161,167,0.964072
+acorn (HNL),0,hnl_targets,d0,"[3.0, 10.0)",346,346,1
+acorn (HNL),0,hnl_targets,d0,"[30.0, 100.0)",498,502,0.992032
+acorn (HNL),0,hnl_targets,d0,"[300.0, inf)",16,19,0.842105
+acorn (HNL),0,hnl_targets,rv,"[0.0, 10.0)",125,125,1
+acorn (HNL),0,hnl_targets,rv,"[10.0, 30.0)",188,188,1
+acorn (HNL),0,hnl_targets,rv,"[100.0, 200.0)",436,440,0.990909
+acorn (HNL),0,hnl_targets,rv,"[200.0, 300.0)",244,246,0.99187
+acorn (HNL),0,hnl_targets,rv,"[30.0, 100.0)",506,508,0.996063
+acorn (HNL),0,hnl_targets,rv,"[300.0, inf)",198,199,0.994975
+acorn (HNL),0,hnl_targets,rv,no vertex,112,119,0.941176
+acorn (HNL),0,primary,d0,"[0.0, 0.1)",1,1,1
+acorn (HNL),0,primary,d0,"[0.1, 1.0)",15,15,1
+acorn (HNL),0,primary,d0,"[1.0, 3.0)",32,32,1
+acorn (HNL),0,primary,d0,"[10.0, 30.0)",506,508,0.996063
+acorn (HNL),0,primary,d0,"[100.0, 300.0)",161,167,0.964072
+acorn (HNL),0,primary,d0,"[3.0, 10.0)",87,87,1
+acorn (HNL),0,primary,d0,"[30.0, 100.0)",498,502,0.992032
+acorn (HNL),0,primary,d0,"[300.0, inf)",16,19,0.842105
+acorn (HNL),0,primary,rv,"[10.0, 30.0)",45,45,1
+acorn (HNL),0,primary,rv,"[100.0, 200.0)",436,440,0.990909
+acorn (HNL),0,primary,rv,"[200.0, 300.0)",244,246,0.99187
+acorn (HNL),0,primary,rv,"[30.0, 100.0)",320,321,0.996885
+acorn (HNL),0,primary,rv,"[300.0, inf)",198,199,0.994975
+acorn (HNL),0,primary,rv,no vertex,73,80,0.9125
+acorn (HNL),0,primary,all,all,1316,1331,0.98873
+acorn (HNL),0,hnl_targets,all,all,1809,1825,0.991233
+acorn (HNL),0,w_muons,all,all,1866,1869,0.998395
+acorn (HNL),0,ttbar_prompt,all,all,52526,52702,0.99666
+acorn (HNL),1,hnl_targets,d0,"[0.0, 0.1)",27,27,1
+acorn (HNL),1,hnl_targets,d0,"[0.1, 1.0)",105,105,1
+acorn (HNL),1,hnl_targets,d0,"[1.0, 3.0)",151,151,1
+acorn (HNL),1,hnl_targets,d0,"[10.0, 30.0)",507,508,0.998031
+acorn (HNL),1,hnl_targets,d0,"[100.0, 300.0)",163,167,0.976048
+acorn (HNL),1,hnl_targets,d0,"[3.0, 10.0)",346,346,1
+acorn (HNL),1,hnl_targets,d0,"[30.0, 100.0)",499,502,0.994024
+acorn (HNL),1,hnl_targets,d0,"[300.0, inf)",17,19,0.894737
+acorn (HNL),1,hnl_targets,rv,"[0.0, 10.0)",125,125,1
+acorn (HNL),1,hnl_targets,rv,"[10.0, 30.0)",188,188,1
+acorn (HNL),1,hnl_targets,rv,"[100.0, 200.0)",438,440,0.995455
+acorn (HNL),1,hnl_targets,rv,"[200.0, 300.0)",246,246,1
+acorn (HNL),1,hnl_targets,rv,"[30.0, 100.0)",507,508,0.998031
+acorn (HNL),1,hnl_targets,rv,"[300.0, inf)",197,199,0.98995
+acorn (HNL),1,hnl_targets,rv,no vertex,114,119,0.957983
+acorn (HNL),1,primary,d0,"[0.0, 0.1)",1,1,1
+acorn (HNL),1,primary,d0,"[0.1, 1.0)",15,15,1
+acorn (HNL),1,primary,d0,"[1.0, 3.0)",32,32,1
+acorn (HNL),1,primary,d0,"[10.0, 30.0)",507,508,0.998031
+acorn (HNL),1,primary,d0,"[100.0, 300.0)",163,167,0.976048
+acorn (HNL),1,primary,d0,"[3.0, 10.0)",87,87,1
+acorn (HNL),1,primary,d0,"[30.0, 100.0)",499,502,0.994024
+acorn (HNL),1,primary,d0,"[300.0, inf)",17,19,0.894737
+acorn (HNL),1,primary,rv,"[10.0, 30.0)",45,45,1
+acorn (HNL),1,primary,rv,"[100.0, 200.0)",438,440,0.995455
+acorn (HNL),1,primary,rv,"[200.0, 300.0)",246,246,1
+acorn (HNL),1,primary,rv,"[30.0, 100.0)",320,321,0.996885
+acorn (HNL),1,primary,rv,"[300.0, inf)",197,199,0.98995
+acorn (HNL),1,primary,rv,no vertex,75,80,0.9375
+acorn (HNL),1,primary,all,all,1321,1331,0.992487
+acorn (HNL),1,hnl_targets,all,all,1815,1825,0.994521
+acorn (HNL),1,w_muons,all,all,1868,1869,0.999465
+acorn (HNL),1,ttbar_prompt,all,all,52644,52702,0.998899
+acorn (HNL),2,hnl_targets,d0,"[0.0, 0.1)",27,27,1
+acorn (HNL),2,hnl_targets,d0,"[0.1, 1.0)",105,105,1
+acorn (HNL),2,hnl_targets,d0,"[1.0, 3.0)",151,151,1
+acorn (HNL),2,hnl_targets,d0,"[10.0, 30.0)",507,508,0.998031
+acorn (HNL),2,hnl_targets,d0,"[100.0, 300.0)",163,167,0.976048
+acorn (HNL),2,hnl_targets,d0,"[3.0, 10.0)",346,346,1
+acorn (HNL),2,hnl_targets,d0,"[30.0, 100.0)",496,502,0.988048
+acorn (HNL),2,hnl_targets,d0,"[300.0, inf)",17,19,0.894737
+acorn (HNL),2,hnl_targets,rv,"[0.0, 10.0)",125,125,1
+acorn (HNL),2,hnl_targets,rv,"[10.0, 30.0)",188,188,1
+acorn (HNL),2,hnl_targets,rv,"[100.0, 200.0)",439,440,0.997727
+acorn (HNL),2,hnl_targets,rv,"[200.0, 300.0)",246,246,1
+acorn (HNL),2,hnl_targets,rv,"[30.0, 100.0)",505,508,0.994094
+acorn (HNL),2,hnl_targets,rv,"[300.0, inf)",196,199,0.984925
+acorn (HNL),2,hnl_targets,rv,no vertex,113,119,0.94958
+acorn (HNL),2,primary,d0,"[0.0, 0.1)",1,1,1
+acorn (HNL),2,primary,d0,"[0.1, 1.0)",15,15,1
+acorn (HNL),2,primary,d0,"[1.0, 3.0)",32,32,1
+acorn (HNL),2,primary,d0,"[10.0, 30.0)",507,508,0.998031
+acorn (HNL),2,primary,d0,"[100.0, 300.0)",163,167,0.976048
+acorn (HNL),2,primary,d0,"[3.0, 10.0)",87,87,1
+acorn (HNL),2,primary,d0,"[30.0, 100.0)",496,502,0.988048
+acorn (HNL),2,primary,d0,"[300.0, inf)",17,19,0.894737
+acorn (HNL),2,primary,rv,"[10.0, 30.0)",45,45,1
+acorn (HNL),2,primary,rv,"[100.0, 200.0)",439,440,0.997727
+acorn (HNL),2,primary,rv,"[200.0, 300.0)",246,246,1
+acorn (HNL),2,primary,rv,"[30.0, 100.0)",318,321,0.990654
+acorn (HNL),2,primary,rv,"[300.0, inf)",196,199,0.984925
+acorn (HNL),2,primary,rv,no vertex,74,80,0.925
+acorn (HNL),2,primary,all,all,1318,1331,0.990233
+acorn (HNL),2,hnl_targets,all,all,1812,1825,0.992877
+acorn (HNL),2,w_muons,all,all,1869,1869,1
+acorn (HNL),2,ttbar_prompt,all,all,52639,52702,0.998805
+Canto (ttbar),0,hnl_targets,d0,"[0.0, 0.1)",27,27,1
+Canto (ttbar),0,hnl_targets,d0,"[0.1, 1.0)",105,105,1
+Canto (ttbar),0,hnl_targets,d0,"[1.0, 3.0)",151,151,1
+Canto (ttbar),0,hnl_targets,d0,"[10.0, 30.0)",507,508,0.998031
+Canto (ttbar),0,hnl_targets,d0,"[100.0, 300.0)",165,167,0.988024
+Canto (ttbar),0,hnl_targets,d0,"[3.0, 10.0)",346,346,1
+Canto (ttbar),0,hnl_targets,d0,"[30.0, 100.0)",500,502,0.996016
+Canto (ttbar),0,hnl_targets,d0,"[300.0, inf)",17,19,0.894737
+Canto (ttbar),0,hnl_targets,rv,"[0.0, 10.0)",125,125,1
+Canto (ttbar),0,hnl_targets,rv,"[10.0, 30.0)",188,188,1
+Canto (ttbar),0,hnl_targets,rv,"[100.0, 200.0)",440,440,1
+Canto (ttbar),0,hnl_targets,rv,"[200.0, 300.0)",246,246,1
+Canto (ttbar),0,hnl_targets,rv,"[30.0, 100.0)",508,508,1
+Canto (ttbar),0,hnl_targets,rv,"[300.0, inf)",196,199,0.984925
+Canto (ttbar),0,hnl_targets,rv,no vertex,115,119,0.966387
+Canto (ttbar),0,primary,d0,"[0.0, 0.1)",1,1,1
+Canto (ttbar),0,primary,d0,"[0.1, 1.0)",15,15,1
+Canto (ttbar),0,primary,d0,"[1.0, 3.0)",32,32,1
+Canto (ttbar),0,primary,d0,"[10.0, 30.0)",507,508,0.998031
+Canto (ttbar),0,primary,d0,"[100.0, 300.0)",165,167,0.988024
+Canto (ttbar),0,primary,d0,"[3.0, 10.0)",87,87,1
+Canto (ttbar),0,primary,d0,"[30.0, 100.0)",500,502,0.996016
+Canto (ttbar),0,primary,d0,"[300.0, inf)",17,19,0.894737
+Canto (ttbar),0,primary,rv,"[10.0, 30.0)",45,45,1
+Canto (ttbar),0,primary,rv,"[100.0, 200.0)",440,440,1
+Canto (ttbar),0,primary,rv,"[200.0, 300.0)",246,246,1
+Canto (ttbar),0,primary,rv,"[30.0, 100.0)",321,321,1
+Canto (ttbar),0,primary,rv,"[300.0, inf)",196,199,0.984925
+Canto (ttbar),0,primary,rv,no vertex,76,80,0.95
+Canto (ttbar),0,primary,all,all,1324,1331,0.994741
+Canto (ttbar),0,hnl_targets,all,all,1818,1825,0.996164
+Canto (ttbar),0,w_muons,all,all,1869,1869,1
+Canto (ttbar),0,ttbar_prompt,all,all,52658,52702,0.999165
+Canto (ttbar),1,hnl_targets,d0,"[0.0, 0.1)",27,27,1
+Canto (ttbar),1,hnl_targets,d0,"[0.1, 1.0)",105,105,1
+Canto (ttbar),1,hnl_targets,d0,"[1.0, 3.0)",151,151,1
+Canto (ttbar),1,hnl_targets,d0,"[10.0, 30.0)",507,508,0.998031
+Canto (ttbar),1,hnl_targets,d0,"[100.0, 300.0)",164,167,0.982036
+Canto (ttbar),1,hnl_targets,d0,"[3.0, 10.0)",346,346,1
+Canto (ttbar),1,hnl_targets,d0,"[30.0, 100.0)",499,502,0.994024
+Canto (ttbar),1,hnl_targets,d0,"[300.0, inf)",17,19,0.894737
+Canto (ttbar),1,hnl_targets,rv,"[0.0, 10.0)",125,125,1
+Canto (ttbar),1,hnl_targets,rv,"[10.0, 30.0)",188,188,1
+Canto (ttbar),1,hnl_targets,rv,"[100.0, 200.0)",440,440,1
+Canto (ttbar),1,hnl_targets,rv,"[200.0, 300.0)",245,246,0.995935
+Canto (ttbar),1,hnl_targets,rv,"[30.0, 100.0)",508,508,1
+Canto (ttbar),1,hnl_targets,rv,"[300.0, inf)",195,199,0.979899
+Canto (ttbar),1,hnl_targets,rv,no vertex,115,119,0.966387
+Canto (ttbar),1,primary,d0,"[0.0, 0.1)",1,1,1
+Canto (ttbar),1,primary,d0,"[0.1, 1.0)",15,15,1
+Canto (ttbar),1,primary,d0,"[1.0, 3.0)",32,32,1
+Canto (ttbar),1,primary,d0,"[10.0, 30.0)",507,508,0.998031
+Canto (ttbar),1,primary,d0,"[100.0, 300.0)",164,167,0.982036
+Canto (ttbar),1,primary,d0,"[3.0, 10.0)",87,87,1
+Canto (ttbar),1,primary,d0,"[30.0, 100.0)",499,502,0.994024
+Canto (ttbar),1,primary,d0,"[300.0, inf)",17,19,0.894737
+Canto (ttbar),1,primary,rv,"[10.0, 30.0)",45,45,1
+Canto (ttbar),1,primary,rv,"[100.0, 200.0)",440,440,1
+Canto (ttbar),1,primary,rv,"[200.0, 300.0)",245,246,0.995935
+Canto (ttbar),1,primary,rv,"[30.0, 100.0)",321,321,1
+Canto (ttbar),1,primary,rv,"[300.0, inf)",195,199,0.979899
+Canto (ttbar),1,primary,rv,no vertex,76,80,0.95
+Canto (ttbar),1,primary,all,all,1322,1331,0.993238
+Canto (ttbar),1,hnl_targets,all,all,1816,1825,0.995068
+Canto (ttbar),1,w_muons,all,all,1869,1869,1
+Canto (ttbar),1,ttbar_prompt,all,all,52664,52702,0.999279
+Canto (ttbar),2,hnl_targets,d0,"[0.0, 0.1)",27,27,1
+Canto (ttbar),2,hnl_targets,d0,"[0.1, 1.0)",105,105,1
+Canto (ttbar),2,hnl_targets,d0,"[1.0, 3.0)",151,151,1
+Canto (ttbar),2,hnl_targets,d0,"[10.0, 30.0)",507,508,0.998031
+Canto (ttbar),2,hnl_targets,d0,"[100.0, 300.0)",165,167,0.988024
+Canto (ttbar),2,hnl_targets,d0,"[3.0, 10.0)",346,346,1
+Canto (ttbar),2,hnl_targets,d0,"[30.0, 100.0)",499,502,0.994024
+Canto (ttbar),2,hnl_targets,d0,"[300.0, inf)",17,19,0.894737
+Canto (ttbar),2,hnl_targets,rv,"[0.0, 10.0)",125,125,1
+Canto (ttbar),2,hnl_targets,rv,"[10.0, 30.0)",188,188,1
+Canto (ttbar),2,hnl_targets,rv,"[100.0, 200.0)",440,440,1
+Canto (ttbar),2,hnl_targets,rv,"[200.0, 300.0)",246,246,1
+Canto (ttbar),2,hnl_targets,rv,"[30.0, 100.0)",508,508,1
+Canto (ttbar),2,hnl_targets,rv,"[300.0, inf)",195,199,0.979899
+Canto (ttbar),2,hnl_targets,rv,no vertex,115,119,0.966387
+Canto (ttbar),2,primary,d0,"[0.0, 0.1)",1,1,1
+Canto (ttbar),2,primary,d0,"[0.1, 1.0)",15,15,1
+Canto (ttbar),2,primary,d0,"[1.0, 3.0)",32,32,1
+Canto (ttbar),2,primary,d0,"[10.0, 30.0)",507,508,0.998031
+Canto (ttbar),2,primary,d0,"[100.0, 300.0)",165,167,0.988024
+Canto (ttbar),2,primary,d0,"[3.0, 10.0)",87,87,1
+Canto (ttbar),2,primary,d0,"[30.0, 100.0)",499,502,0.994024
+Canto (ttbar),2,primary,d0,"[300.0, inf)",17,19,0.894737
+Canto (ttbar),2,primary,rv,"[10.0, 30.0)",45,45,1
+Canto (ttbar),2,primary,rv,"[100.0, 200.0)",440,440,1
+Canto (ttbar),2,primary,rv,"[200.0, 300.0)",246,246,1
+Canto (ttbar),2,primary,rv,"[30.0, 100.0)",321,321,1
+Canto (ttbar),2,primary,rv,"[300.0, inf)",195,199,0.979899
+Canto (ttbar),2,primary,rv,no vertex,76,80,0.95
+Canto (ttbar),2,primary,all,all,1323,1331,0.993989
+Canto (ttbar),2,hnl_targets,all,all,1817,1825,0.995616
+Canto (ttbar),2,w_muons,all,all,1869,1869,1
+Canto (ttbar),2,ttbar_prompt,all,all,52645,52702,0.998918

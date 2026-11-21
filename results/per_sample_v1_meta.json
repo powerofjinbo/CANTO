@@ -1,0 +1,363 @@
+{
+ "name": "per_sample_v1",
+ "git": "e63ff6ac7a8960c8893e9bfab84d3d2dccdac45b",
+ "slurm_job": "59807179",
+ "host": "hpc3-15-27",
+ "started_utc": "2026-11-20T20:55:22Z",
+ "inputs": {
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/strong_baselines_v3_val_entries.csv": "175193d02be714f419dda7c81e00261dfa624e6e07c0d78abd44464c42e84a34",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/strong_baselines_v3_val.csv": "a17c21bd59e289e155dea373c86de18c59f247c4b5d93f519992cf3ec8312152",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/strong_baselines_v3_val_differences.csv": "2ca7528ab07f137ee2f4fef26efba9e89f65ee77b2465941a6dd48a89d6a6533",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/strong_baselines_v3_spec_test.json": "ad19e9566edffdb5e59d57e515ab132ec9d4075a9904f96a1fb07830179a6bdb",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/strong_baselines_v3.csv": "41a7c40309221357ec88213ce4e329fc04976731c8257d78b3f82e773c15946e",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/strong_baselines_v3_differences.csv": "93ccb00c44c3e3f5017c68525bbb2854db017cc5fc0e85debd4df4a448aef387",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/strong_baselines_v3_test_per_set.csv": "dfe00d5822337ecd3f2fd4b9bb111bd08aa6d91401574e22d9fbbe5e85ca3848",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/final_selection_v1.json": "bae8fb133868607304ec0186817030307f94a8c333122d025a4851d4dbfc7d29",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/working_points_v1.json": "738e33c6ec5b1cd3ea007d82cee3c9d0590411ac4c120b48a0dd84187e1afe39",
+  "/pub/jinboz1/hnl/hnl-displaced/splits/hnl10_100_val.txt": "a3ebe2d0c63c96207106b76045c527f63635482d85824a0509ac1f546b3282eb",
+  "/pub/jinboz1/hnl/hnl-displaced/splits/hnl15_200_val.txt": "0efe904a4e8572ef411f4845ee77ce030009d72d994c07b593274c244c9d29dd",
+  "/pub/jinboz1/hnl/hnl-displaced/splits/ttbar_val.txt": "54f9df251114902940b28576c3d3f7f77137f3f8d85844bf952db5ac75fb0592",
+  "/pub/jinboz1/hnl/hnl-displaced/splits/hnl10_100_test.txt": "d0985e1f7220bde58ed9828b6231effcda2ea5031948b8ae2b5aa1da32be7070",
+  "/pub/jinboz1/hnl/hnl-displaced/splits/hnl15_200_test.txt": "6b8773002bc4d37ca007c36194e64bccde95628d0a8bc6fd948bb1ce6a54fa08",
+  "/pub/jinboz1/hnl/hnl-displaced/splits/ttbar_test.txt": "0dd72b310d1161c68d402137861dcc7485184003a35540216c97ae0d2779544b",
+  "/pub/jinboz1/hnl/hnl-displaced/splits/hnl15_100_external.txt": "43de4891aa261dff1e46a8042c7a9e5bddfa064034b99bc723e3134993768bf8",
+  "/pub/jinboz1/hnl/hnl-displaced/docs/dropped_events.tsv": "174f78afb27bcec071cf70883326737b5170da140361433b919c38ac26323014",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/bootstrap/v1/hnl_joint_test.npz": "eee6e4d475b4fe73f329e8cb8a4d600fa902446a934947197938d0a5787cc596",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/bootstrap/v1/ttbar_test.npz": "71c6027ab372d792467084169a44cd3195d714ba8b5f82d0fe7edbb39272ce6d",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/bootstrap/v1/hnl15_100_external.npz": "5595ae94d98b1d7d2caff717b0f16c521b25517094db72b8cbfd2a2dfcab2440",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v1/bootstrap_v1/tables/val_b1000/hnl_joint_val.npz": "20e8d5343177c944a2d9cf6e8245fb8b63a4aed47e77a0cd9f6d80b8db7c01aa",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v1/bootstrap_v1/tables/val_b1000/ttbar_val.npz": "5d79f40b6aa675b3c59ef50dbbad009a82c0996ec3f2335584133990072c0b3b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0/eval_val/per_particle.parquet": "703ccea89acce3ac868acd1e67ec16dcb37e6223277ded2c3039845096ea6634",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0/eval_val/per_event.parquet": "4b4a858335e2f5c2924c1b32f861b8f91636258010bfe9e8cd942a4fca8b9644",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0/trackbuild_val_fb3_all/per_particle.parquet": "acb6389e0800bda174ac5443a4bc84495bdd2dfe26eacf4943ac468357fa058c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0/trackbuild_val_fb3_all/per_event.parquet": "56d4513a6cd0d428df6219e1afd2165623a74f0b2706a4023f893d3a49bdaa52",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0/trackbuild_val_fb3_all/configs.json": "c5c088ba2f14737026375c8f2bc63444858eb42ba2f8d0901bccd44a94407dd4",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0/trackbuild_val_fb3_all/merged_from.json": "1929bdc782e8fe956037bf322ba98fd273dbb349a4040a91c06dc151d50c9d11",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1/eval_val/per_particle.parquet": "6e7b81735c54ee338025bbfd4b324622426f6e7bfb3b66f95b0ba4cb4b8589e8",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1/eval_val/per_event.parquet": "0a7f5a8c8ca8a2419bc899c77234fcae6ea6f6513aaec910669b27b5864c0fee",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1/trackbuild_val_fb3_all/per_particle.parquet": "87baa632177b80ec6eb62158e2be277b07200c08a7f6cd12484cea9e00eadf30",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1/trackbuild_val_fb3_all/per_event.parquet": "e6b633c4dd9801599d7d7a0737d44ab4d44c882807b6276bc2918d3094f9b85a",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1/trackbuild_val_fb3_all/configs.json": "c5c088ba2f14737026375c8f2bc63444858eb42ba2f8d0901bccd44a94407dd4",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1/trackbuild_val_fb3_all/merged_from.json": "e35df4552798f4d6b00f0059c426776c92929311196c9c7bad7b9749923c17ca",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2/eval_val/per_particle.parquet": "8cd6738a2e675b79b650360c9be540f9d6d89569b3777cd7840c20641e9daa4e",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2/eval_val/per_event.parquet": "859ea4752f55b976db844197f292fdcd0a586fa692d708475d1671072b735472",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2/trackbuild_val_fb3_all/per_particle.parquet": "17189aeb297e848898f9cc5531eb25b90b5a75273169c5c7f939c3677d64025f",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2/trackbuild_val_fb3_all/per_event.parquet": "cd5fc4a94ed3832027023e68f833e3c5640788c915bd073d189b5b0a921ae0bc",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2/trackbuild_val_fb3_all/configs.json": "c5c088ba2f14737026375c8f2bc63444858eb42ba2f8d0901bccd44a94407dd4",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2/trackbuild_val_fb3_all/merged_from.json": "8f42f711dd3e0bca317db299714c21ae632b2166861cc2d14c6f7a2568764034",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0/eval_val/per_particle.parquet": "9eb1d4004c23815897c75e36341a2daeed48342c44bf22962ec54b6135e96e63",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0/eval_val/per_event.parquet": "b8129faf9492c635c96510f398310d024d61a54ef87cd60359fd67085cd071a6",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0/trackbuild_val_fb3_all/per_particle.parquet": "b6a306bc368ef23c042e62e3f79936a0fec377972a3a925ed47f86f07c96b247",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0/trackbuild_val_fb3_all/per_event.parquet": "5e30b61f72223a814a7ea5a8afa8f96c09e01329861abd201fc435a0e5d87c6c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0/trackbuild_val_fb3_all/configs.json": "c5c088ba2f14737026375c8f2bc63444858eb42ba2f8d0901bccd44a94407dd4",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0/trackbuild_val_fb3_all/merged_from.json": "7425e05b2ed68d4bb57364dcfdc14ff58c4d5ed0785ee61aae84d36e118fbd08",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1/eval_val/per_particle.parquet": "e9d19568bcc50be02c42eefe4e78743c8a05f06177c38cdd565a3d7316b492d1",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1/eval_val/per_event.parquet": "b618e9015e4a782795a73030076082ebef8dfca99bc84e8ec71791bffc175020",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1/trackbuild_val_fb3_all/per_particle.parquet": "1d12dcc37bc2ce470bddc36e728c574d888b0559988e7454c73d60c6aefc4d46",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1/trackbuild_val_fb3_all/per_event.parquet": "72fd9e3817c6fa0e93d3f95b3a391cb20c3be0831a601ab8fcb618b358f07316",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1/trackbuild_val_fb3_all/configs.json": "c5c088ba2f14737026375c8f2bc63444858eb42ba2f8d0901bccd44a94407dd4",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1/trackbuild_val_fb3_all/merged_from.json": "544384767154d11f57e0b0025b9012e5ac80ac89256a6a1e3b2c3b35165321f4",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2/eval_val/per_particle.parquet": "141d39090c0f329411467777ef377b656c472877b6bc278c28d4b30e34a24d6c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2/eval_val/per_event.parquet": "9b8c28959ba9f23993476abe2b21aaf0074d23cd2d60cc31a4d8afb1708b9492",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2/trackbuild_val_fb3_all/per_particle.parquet": "0530d1c7c938b45d8f37db7b47040e4584e305dc9e0612ac2a71fa5e55eaa54c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2/trackbuild_val_fb3_all/per_event.parquet": "7f427b2f7a22ba1b41ebd065d99a3dcdbe437c1ce79e599c69052ec546e9e1f1",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2/trackbuild_val_fb3_all/configs.json": "c5c088ba2f14737026375c8f2bc63444858eb42ba2f8d0901bccd44a94407dd4",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2/trackbuild_val_fb3_all/merged_from.json": "8bfe2fd41c17161dab3ec6b1137b47e1bba2eaf1d05524b0e03f2b22f4d26c27",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/eval_val/per_particle.parquet": "ad074ef811bb6c9916c99ce351871e8572942bf32ec9e434edf71c733b916e1b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/eval_val/per_event.parquet": "03a40683f8f0e9b8fb69d3fb2a01b1d8f8d24a232ace9dee68bc378c331b50be",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/trackbuild_val_lmerge/per_particle.parquet": "e46c1008d96bd513df94e5fd7c8a89b8c29ddf8a831aa698e76372bbe98accc0",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/trackbuild_val_lmerge/per_event.parquet": "754b8399a39156c53b5172124e1a855fef106f5d5a5ee5f026a4e764b5ceab1b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/trackbuild_val_lmerge/configs.json": "fd653098c21bf00dc5177100bcc56bc185cca04bfe7f59da5315121fd2572417",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/eval_val/per_particle.parquet": "c1a0d234b982527c63a64871f28b7675b8e807dd59ec22c0651a7a381ff438db",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/eval_val/per_event.parquet": "ff802db16c7ecca7f534d051ce2a3b001d2f38e08ac9ebdd605d6cc16f75b0d1",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/trackbuild_val_lmerge/per_particle.parquet": "04803a1d93106be9e1c31685ba5815b51ded3dd3b3b1f6a80b059afc75536f66",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/trackbuild_val_lmerge/per_event.parquet": "49ebc71e72f1194fa11ccb7c2f234c5ad7b1d929ec7d2de9d08bdcdf33c98c15",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/trackbuild_val_lmerge/configs.json": "fd653098c21bf00dc5177100bcc56bc185cca04bfe7f59da5315121fd2572417",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/eval_val/per_particle.parquet": "1d9331e35cc3e801e836d13304ea094b03489a6e4b6d10024ee6644af4c7a5b6",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/eval_val/per_event.parquet": "6afd41370ece7d276c98573d076f4d75a41a2ed0376aefd6d73fb82e3b720cb8",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/trackbuild_val_lmerge/per_particle.parquet": "a660abcce4f74e491a3eaa30e9a3386cefb6e07ed121b335cf4c6955b25baef0",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/trackbuild_val_lmerge/per_event.parquet": "884a95a5151e500cfbc58ce327f4e70294cd210cdca7a9363034f624302dc798",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/trackbuild_val_lmerge/configs.json": "fd653098c21bf00dc5177100bcc56bc185cca04bfe7f59da5315121fd2572417",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/trackbuild_test/per_particle.parquet": "6f5ee0903efad3993cb2f2eef542f04848bb0f8ec1c3050b317ca090371cd299",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/trackbuild_test/per_event.parquet": "fb885958b685aec3a860139c827eef5f66d7f2aee863d3aca1bed3da4803151d",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/trackbuild_test/configs.json": "982035223d992e70099439fdccb8b8174daee52dfd1525cc3c6f48394fb35f93",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/final_selection_used.json": "bae8fb133868607304ec0186817030307f94a8c333122d025a4851d4dbfc7d29",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/trackbuild_test/per_particle.parquet": "5784a0d0f7d03cc991cfcc982e4fe9b3a03cf4bcb5b50b731e6eb7246c8b8119",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/trackbuild_test/per_event.parquet": "ba6da70eaa9af9d68dcbb852c96febb4045c53d15f3405730d12d82a8d482847",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/trackbuild_test/configs.json": "982035223d992e70099439fdccb8b8174daee52dfd1525cc3c6f48394fb35f93",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/final_selection_used.json": "bae8fb133868607304ec0186817030307f94a8c333122d025a4851d4dbfc7d29",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/trackbuild_test/per_particle.parquet": "369ec6b07458e208941041f6393d723c7ab31a1d4a5e721360ca37e6bd02f32e",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/trackbuild_test/per_event.parquet": "9ee7669f0a7920c387960a98241d3126da3f49ccaec7c9ba0c16c310cb64187a",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/trackbuild_test/configs.json": "982035223d992e70099439fdccb8b8174daee52dfd1525cc3c6f48394fb35f93",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/final_selection_used.json": "bae8fb133868607304ec0186817030307f94a8c333122d025a4851d4dbfc7d29",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s0/lmerge_test/per_particle.parquet": "8be926d2ad0613d2596d0da97c255b50b293de36913f819a43f610405f5417c4",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s0/lmerge_test/per_event.parquet": "6bc14352c463e953a8fc4b18b291f8f8ffe4b52d4f7cc1ce961b2b1a31bf5246",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s0/lmerge_test/configs.json": "982035223d992e70099439fdccb8b8174daee52dfd1525cc3c6f48394fb35f93",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s0/lmerge_test/provenance.json": "54492e4ddb7762f635daf9d5e273146e30fae8b76fc9db8a87ec8c3f19a5048c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s1/lmerge_test/per_particle.parquet": "104282b7b6d6f243c49d442b0089428e8f58fa00f1da7742948ce9d654fcfeae",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s1/lmerge_test/per_event.parquet": "a6d4373837eab9a266d7c0fc28c47e0214e842e5aae592c5e21d35d1688835f2",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s1/lmerge_test/configs.json": "982035223d992e70099439fdccb8b8174daee52dfd1525cc3c6f48394fb35f93",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s1/lmerge_test/provenance.json": "7e42412fe73ced42bac556224c703cdab8f956831ade6099c1bb8739fe056017",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s2/lmerge_test/per_particle.parquet": "883eaa1cd3dd5ec318b05e8f2203fe5af465dada1d6b30a87d752520454586da",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s2/lmerge_test/per_event.parquet": "d88e290e887663743567aeb4061407cdd91739314ab218ae2b10926f6daa88d8",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s2/lmerge_test/configs.json": "982035223d992e70099439fdccb8b8174daee52dfd1525cc3c6f48394fb35f93",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armii_s2/lmerge_test/provenance.json": "d845a7107ded32632d341a978aa9f20a26c1db00e14306612b070fcf38618198",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s0/lmerge_test/per_particle.parquet": "d6678c0e0f0c7f2d508b3d609e55aebf7adcc75229067153727bdd6a170ccb25",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s0/lmerge_test/per_event.parquet": "4d5bf5acec33bfe7d67125a879a65494cfdbe833e84b8da6efdab6bb4c1ac376",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s0/lmerge_test/configs.json": "3c48dbc37535a37900e05677f6a3db95bec1035ccbee787012a3bd6e583e35a8",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s0/lmerge_test/provenance.json": "fd5fb72b0c149848da99bd2ada6011d2cc734252015c9725056fbce6eb5f950b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s1/lmerge_test/per_particle.parquet": "58ebf99e4402265b057b5a23e4c51acc7238812e86d73842ec89f7b280195ea9",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s1/lmerge_test/per_event.parquet": "d64929dee8167004c87ad14e3a8c2d6337dbde37406d9d6cc4494b1871316eca",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s1/lmerge_test/configs.json": "f38cb8116a4101655e46b986fc8eba0d243c7912f5012a5e26804f438ae3e4a5",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s1/lmerge_test/provenance.json": "69c12e02c3d20cadff2d1afbc975dd06f0d7c2bab54a2aa255ff9f6d645b0451",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s2/lmerge_test/per_particle.parquet": "b7212d8f4a539dcff7c59972c7669c1b03aabd22dd652a9d5d812407b664e1ee",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s2/lmerge_test/per_event.parquet": "ee6831420f3e5e67373b924ca211c546d2d5b978bd91a1d659fb88e5b81512ec",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s2/lmerge_test/configs.json": "3c48dbc37535a37900e05677f6a3db95bec1035ccbee787012a3bd6e583e35a8",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/feedback_v3/strong_baselines_a2/armi_s2/lmerge_test/provenance.json": "32bda1eb36e26accc0877bd7729b562814fdb73b5d77c776ca6a63751ae3522b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0/eval_test/per_particle.parquet": "1a0dd1d846060ff8344e40b5d50c84e614aad1727baac9db90c96c243cbeb2a1",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0/eval_test/per_event.parquet": "78a739184eee3562d6b80c594e3d295f4fb1ef41005ed3d867507f8bfb387fc9",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1/eval_test/per_particle.parquet": "1b27b4e56ab3df6212093d2549437ded697672d52908935ebe5b4bf8c9b70168",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1/eval_test/per_event.parquet": "d04dd023a8c8f4990cea291e942e3135c22ddbfc60bc26d155694ed5769590b7",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2/eval_test/per_particle.parquet": "9301797e7645429bf85c3731118f6514edd593709fd88cf0dba9b99729ede17d",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2/eval_test/per_event.parquet": "5146f6d49469e1369d41d32bcfc8cfe74420e9b6c970a1e2416476cf2b43bd99",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0/eval_test/per_particle.parquet": "d2d1ee3c53e47782ad55d981ad0e245a25384cb4f4eb4ba163bf47bcdd076898",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0/eval_test/per_event.parquet": "75170375be4dc6b016da87904011b3c6a286c9be90b971c2b48509b36e3e8a9d",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1/eval_test/per_particle.parquet": "b672ae2d9245dd15966c476ca777ba746c2aba3149d04c2df7087b46becc36d0",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1/eval_test/per_event.parquet": "de2c3b8bf5e055231fa9d54e9b4d19b5e8a91b6c0e2be762f26ce3908631a10e",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2/eval_test/per_particle.parquet": "ca920ea419f856b1e5b7f9a488478470a8c6adec4c1f230a465f907cb1b88496",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2/eval_test/per_event.parquet": "605b8e188ff807aa92cd1a02386b2dcd93cbee4f749d3df5e7c33eddefdbc979",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_00000.parquet": "b913df306ce7c7393249d1dc24d2926519a82f2c356abe22f4bbc7b0a214bc83",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_00500.parquet": "e30580e070b4d0b7f6b21bd0e1161486c43ba64cccfec79c5e1a20851d6cce7c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_01000.parquet": "171eba0af12f478c15af8cb22b3eddda495d958497c0b3b95672a35e4a6346fd",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_01500.parquet": "b269ee413bb5008b1776f452253a4a9d2ce2089b47004c86c9561c388d7ae2d5",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_02000.parquet": "51bc8304a90d36c479cbbb979ff5c20099f7c0f6517bb9268ffdbabe27b5b32d",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_02500.parquet": "684bb284115cc35e7b289ac7daa0d1ba9c64070c1f93b24931ffbe99d98ffeea",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_03000.parquet": "cb328a016fe22efc851520dd8121850a2969394dc35f98080f38d4086450af28",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_03500.parquet": "0924ddf25d4689caeeab3c3bdfaeaf75928803d7dc762dbe193810b7ada625cb",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_04000.parquet": "a8c5e8c44442c1f8f6b88aa4e415d237da8f599f1cde77590c03f905c0c38170",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_04500.parquet": "737cfd9db516275d56b7cd047b9b8e980058a4d5a294194186ead8c09e27ce10",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_05000.parquet": "4bf0df2ddb23d9abc208ada42203cedf167c2693c32b3ea0b6f69d398f855884",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_05500.parquet": "3b9594dd8ac5222117ea6bc5ae5630956cda7b3d1d6c76bfd8119119ffbb8a7f",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_06000.parquet": "04862b1666d43eaab1f3ce050b54881eb3c2656ca06f97be63eb512b4ea9e261",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_06500.parquet": "5254df4ac5a8a0eb14f76bfbc80b2ce87d044d719bc7ca8ae816a3089720879e",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_07000.parquet": "64ad0d01e32a7e6772d9217be2b03aa1d335fe7d1d62c52bdefdbfa7f9f24209",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_07500.parquet": "ac4b68831757a7118a7617b528dab0c4d475046da45c1d084bde2f1362aa5d93",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_08000.parquet": "7d500dc0c90a443f879ce0c129c4d8d5992785d093fd1f4b49083b184d70379c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_08500.parquet": "b5af2751929948a5bfadfeb535f203e32d75e30dd815a66df692355bff2dce59",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_09000.parquet": "1e919417fb579c090ee7d44ffb7e884295ee7fc49972049fbb9d971fa149a196",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl10_100/shard_09500.parquet": "ebfb2bf677ca5a6f134b113da078d9271fa7f7bae152252438b6d2d42f0f54b6",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/truth_fits/v1/particles_hnl10_100.parquet": "75aa4c8630a0454afaf512f44dde5f17ee64b6950efe9d2992b9e244e2da5893",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/truth_fits/v1/vertices_hnl10_100.parquet": "f0ea3ca7d8ca348342c7684b5f2a83c50655a5bfbc445d41070d7ae981042e0b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_00000.parquet": "6422880b0789726dca0524266d4867c86910cae2d3fb4477820249a1e3cff625",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_00500.parquet": "ef4ae20403776089e37595d9a08c7e7b2445ec964b93215162dd91c46df0c7f1",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_01000.parquet": "e462e5c50464c4b4f8378547528b56a8cade96bc402cd44f5cb9f9b41425f14b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_01500.parquet": "250615299d33a622f054c74bfa27d2a82cca51d5599059b8382ee2e200f7272f",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_02000.parquet": "aee74cd57faa5f663ef8ddb9cd4d7ca700be061856c2ce6a4ea67a61aeec0c49",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_02500.parquet": "00c1d8f08ee9e9b43212a13b037dd17f7a5933436adac69366f6c9f0fb3977d4",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_03000.parquet": "4f874d5d2d39743b93a30ff301bc004b9bfab312337a1de48b51b10053961e10",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_03500.parquet": "d1b6b25b582b6ff686b714cf57c5106d0af34d802c5ea32c75dc3a5e17903bd0",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_04000.parquet": "3154d66c3a329a0c1314a8bbb8b644b724efabcc98393c039e2acd16a79b3a7b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_04500.parquet": "d87cb74dec71ac26ac4f4a0dfc28ed01f51719840b3792136d235a7c17aadd0a",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_05000.parquet": "157adb0ceff5ae358e9e26f2cdea9e70627df9b9c797fbff28f0ac447d85b315",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_05500.parquet": "445e314eaa182918e2b665549f4ec518cdb05499cf733e0682c8de4364536433",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_06000.parquet": "686ad97f873e80194c2aa2f7b36af28e63d687f06e798249b32dfedb44b15ce9",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_06500.parquet": "150dd1948c1ce3f9c21cef8feb1c7bf774430e83ab8fd14605810907ad41f8ed",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_07000.parquet": "5c9204936076e56bb1136ee524166f409c89d30dd2fd6ba9ed97da7e51b76531",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_07500.parquet": "7c9fd37e963fe6a5b7195ed0cb89d0cf04eb4f2d5dac0d97fdb1b124f07af858",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_08000.parquet": "584e347b50a8644808aff7edf53406f5c25f20b427c5b0bf73abad8b9711937f",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_08500.parquet": "2a43b913863030485995af3dc0054710c22ad3b674b4055a7615f2d151387623",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_09000.parquet": "c362ad2a627117be0b5fd338aaf3107890b6125444166bc8ff9cfa38276318b0",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_200/shard_09500.parquet": "0e1c066ab72ba41b31cfeea09ac87bad1171267fe1f7d0dfeefb1319de34484d",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/truth_fits/v1/particles_hnl15_200.parquet": "6775c5bb4ee5ca5bb590cd7b4972bfc02d13b927e0f5ae671db4f61ed1fa6998",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/truth_fits/v1/vertices_hnl15_200.parquet": "29f7c274865278ae761aded019c3c357f4d0554af9d8e33cc1d116d040d9acbe",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_00000.parquet": "7a404060ecca4896744a7c707d9fee70f2bdd10d7bf9a820ce767ca3a1497949",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_00500.parquet": "4adbf4c4bdb07e060197981ee51a343f793d608cdba58f077a8a1ba10ff6bbac",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_01000.parquet": "57da6c6498715e4b1b9cde53d9f630e26b910a33bc2ba5117e7100fed16c9e39",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_01500.parquet": "47cbeee93eba23d9f9e27302f848e8c92e9a6b3ea32230918e17841b96388603",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_02000.parquet": "a254487a5272e4dd96a62babf401fafaac21c87642e340c818ac40d6433ee82c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_02500.parquet": "457cae86fea770fd2c4a62c1562c7cffc851804b55144d95bb00cd101bfed4a7",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_03000.parquet": "c75136a0c66c8c8f3819a7732addfffd239dc3c744c2f7ef926bc1d358122bcd",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_03500.parquet": "d755c170bc1a836f3ebf3b840d947826eaf58467fcacde332b29926277cf8a95",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_04000.parquet": "8d45438ba8a80b2adfd941f4fd7f61fa133dab0df7c731c2ee867efce011f131",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/hnl15_100/shard_04500.parquet": "5fe949b79080d90c63069f7269606d746507a735d7157c60e1bb95cf5968b95b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/truth_fits/v1/particles_hnl15_100.parquet": "e426c3ee3ffb346929fd064aa98fe7e9eb3c1212b2f0cf915269de32b227f96c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/truth_fits/v1/vertices_hnl15_100.parquet": "1ef74d0ad478275e8ce94d213f5f76c2e6cf83fb03527559014be109630dd7b2",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_00000.parquet": "3baf61b1febd3b19ceef6165b4e73e6fcf4f73922f9e44670d4c56b06526ec35",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_00500.parquet": "5cb4e9053f5c4c75ba895ca5a57f7c034c9f3584fe45f8cab4c7ca88fd7b524f",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_01000.parquet": "f359b52957ca03326987717c6d6bbb3178329d93ada04984be8778f51dfcd4e8",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_01500.parquet": "65e3c3955e9045b8afc3b718d245fd032a92777d6a074e90a6b5a314e9375ad3",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_02000.parquet": "20f1295a94bce52367b0045299f19b6c6e843866af9a3e9045cc346b6f6d458c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_02500.parquet": "72b035d387898820c38db67ccbdcb8d4dffa5df36c5f2a56e81b6498606f7147",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_03000.parquet": "2b9e519961b17a36bc36015821f9660bddefd3f64bf5529e3370ffd8dd0d20db",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_03500.parquet": "902fdf7ca10a1a1ad240112b801ca173d00fda1209de34f6ec037043d7fa1a01",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_04000.parquet": "643df328e45acb4098868582cc6bfd5e4b27c08f38443da5a305cb82fcea0a9d",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_04500.parquet": "448fb8a3d991236c047fe360b83905f810457e319cd612f76ff86bf4184d012c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_05000.parquet": "4d6dc78afb289b604391e053711790bce17ae9e3ed46472877735bcb59713b3d",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_05500.parquet": "fc664ea1f3c955f82ae5c0d68c19f92c2e5e8535cb836e720de34d9587e5e376",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_06000.parquet": "db5a363c96c19582abb4e3d4f562854ce1183e7daa3c04a26fb1dda3e96a51c9",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_06500.parquet": "17b79e5fcc85cdc8c8c524cd05fad672e68a98a4827835fd792d4bf72ec76d65",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_07000.parquet": "0a8d4177888edd1da96a1209e66d5121bf805f601a3ac36820c869facfb0fbb3",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_07500.parquet": "cb55122fe7729a6c3d54c13da456b4f0b79301c6751b28d416b273964f624fdd",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_08000.parquet": "1533868355d017c3e4f34c2b15cb438d95df6bc0d933a8add6dc811582fcf23c",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_08500.parquet": "d4edcdc1f196bc3859f45eeb32441f0d09a1b39f1aeada98f5304730e9a0b2dd",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_09000.parquet": "69ca9feb789c6d611f3e5c31aa1c1cd500f56f2de1355e8c61142c6210a2712a",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/events/v1/particles/ttbar/shard_09500.parquet": "e4b32ff6b5b00f1b34e064bd2b6f01cb24c9bf0e62348a6f497c0d7b53cbcf6b",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/derived/truth_fits/v1/particles_ttbar.parquet": "97f2702908571eda6aeffc0290e2efc5dd3d1bd1ab171463ccc797c2f85393ca",
+  "/pub/jinboz1/hnl_lrt/hpc3_v1/results/per_sample_cc_ref/cantol_cc_entries.csv": "2efacd8f559e8c60c8e658fb3850d7ef3fb997dc6b2d8cec743bd27b34ef58bf"
+ },
+ "test_use": "post-freeze, descriptive read-out of stored test outputs at committed configurations: every working point was fixed on validation before (results/final_selection_v1.json, results/strong_baselines_v3_val_entries.csv / _spec_test.json, results/working_points_v1.json); no configuration, cut, model or rule was chosen on test; results/claims_test_v1.json unchanged",
+ "validation_choice": "Canto-L classifier + CC (validation only, no test read-out): cut per seed chosen on validation by hnl.eval.ranking's rule 'best' (highest primary efficiency with fake rate <= FR*) and, as a second row, by its rule 's4' (largest fake rate <= FR*, ties to the lowest cut; the rule of the preregistered cuts and hnl.eval.ranking's default). The reference read-out given with --cc-ref was made from a spec without 'rule', i.e. with 's4', and equals the 's4' row (checked); the 'best' row has other cuts",
+ "cc_entries": {
+  "Canto-L classifier + CC, best cut <= FR*": [
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0",
+    "working_point": "CC 0.43",
+    "eff_primary": 0.9759579263711495,
+    "fake_rate_hnl": 0.027017148426791752
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1",
+    "working_point": "CC 0.36",
+    "eff_primary": 0.9774605559729527,
+    "fake_rate_hnl": 0.022873595566427814
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2",
+    "working_point": "CC 0.39",
+    "eff_primary": 0.9759579263711495,
+    "fake_rate_hnl": 0.025222861313361253
+   }
+  ],
+  "Canto-L classifier + CC, preregistered cut rule": [
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0",
+    "working_point": "CC 0.47",
+    "eff_primary": 0.9759579263711495,
+    "fake_rate_hnl": 0.030597194564194585
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1",
+    "working_point": "CC 0.45",
+    "eff_primary": 0.9752066115702479,
+    "fake_rate_hnl": 0.030733554852228194
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2",
+    "working_point": "CC 0.44",
+    "eff_primary": 0.9737039819684448,
+    "fake_rate_hnl": 0.03027624889526693
+   }
+  ]
+ },
+ "cc_reference": {
+  "path": "/pub/jinboz1/hnl_lrt/hpc3_v1/results/per_sample_cc_ref/cantol_cc_entries.csv",
+  "sha256": "2efacd8f559e8c60c8e658fb3850d7ef3fb997dc6b2d8cec743bd27b34ef58bf"
+ },
+ "fr_star": 0.030899843571822436,
+ "acorn_rows": {
+  "acorn (HNL)": "acorn (HNL) + val-best builder of the full menu (chosen per seed)",
+  "acorn (ttbar)": "acorn (ttbar) + val-best builder of the full menu (chosen per seed)"
+ },
+ "per_sample_val_tables": {
+  "hnl10_100": {
+   "units": 1000,
+   "B": 1000,
+   "seed": "SeedSequence(20261008).spawn(2)[0]",
+   "w_sha256": "a06e21cc355cf13a326c091ffcb6156bd0ee83fbadbddec2003bb1b3b0706996"
+  },
+  "hnl15_200": {
+   "units": 999,
+   "B": 1000,
+   "seed": "SeedSequence(20261008).spawn(2)[1]",
+   "w_sha256": "6a8ff8c0da101efe8a846bc83ab13e0086b846497d754e14384e438325ebed36"
+  }
+ },
+ "checks": "631 of 631",
+ "working_points": {
+  "Canto-L (frozen: learned merging)": {
+   "val": [
+    "mwslmerge 0.1 (trackbuild_val_lmerge)",
+    "mwslmerge 0.1 (trackbuild_val_lmerge)",
+    "mwslmerge 0.1 (trackbuild_val_lmerge)"
+   ],
+   "test": [
+    "mwslmerge 0.1 (trackbuild_test, configuration 0)",
+    "mwslmerge 0.1 (trackbuild_test, configuration 0)",
+    "mwslmerge 0.1 (trackbuild_test, configuration 0)"
+   ]
+  },
+  "acorn (HNL) val-best (MWS-layer + learned merging)": {
+   "val": [
+    "mwslmerge 0.1 (trackbuild_val_fb3_all)",
+    "mwslmerge 0.1 (trackbuild_val_fb3_all)",
+    "mwslmerge 0.1 (trackbuild_val_fb3_all)"
+   ],
+   "test": [
+    "mwslmerge 0.1 (chosen on val in trackbuild_val_fb3_all; test configuration 0)",
+    "mwslmerge 0.1 (chosen on val in trackbuild_val_fb3_all; test configuration 0)",
+    "mwslmerge 0.1 (chosen on val in trackbuild_val_fb3_all; test configuration 0)"
+   ]
+  },
+  "acorn (ttbar) val-best (MWS-layer + learned merging)": {
+   "val": [
+    "mwslmerge 0.05 (trackbuild_val_fb3_all)",
+    "mwslmerge 0.03 (trackbuild_val_fb3_all)",
+    "mwslmerge 0.05 (trackbuild_val_fb3_all)"
+   ],
+   "test": [
+    "mwslmerge 0.05 (chosen on val in trackbuild_val_fb3_all; test configuration 0)",
+    "mwslmerge 0.03 (chosen on val in trackbuild_val_fb3_all; test configuration 0)",
+    "mwslmerge 0.05 (chosen on val in trackbuild_val_fb3_all; test configuration 0)"
+   ]
+  },
+  "acorn (HNL) + CC, preregistered cut (claims' reference)": {
+   "val": [
+    "CC 0.36",
+    "CC 0.28",
+    "CC 0.26"
+   ],
+   "test": [
+    "CC 0.36",
+    "CC 0.28",
+    "CC 0.26"
+   ]
+  },
+  "acorn (ttbar) + CC, preregistered cut (= best cut)": {
+   "val": [
+    "CC 0.37",
+    "CC 0.34",
+    "CC 0.34"
+   ],
+   "test": [
+    "CC 0.37",
+    "CC 0.34",
+    "CC 0.34"
+   ]
+  },
+  "Canto-L classifier + CC, best cut <= FR* (validation only)": {
+   "val": [
+    "CC 0.43",
+    "CC 0.36",
+    "CC 0.39"
+   ],
+   "test": null
+  },
+  "Canto-L classifier + CC, preregistered cut rule (validation only)": {
+   "val": [
+    "CC 0.47",
+    "CC 0.45",
+    "CC 0.44"
+   ],
+   "test": null
+  },
+  "acorn (HNL) + CC, best cut <= FR* (validation only)": {
+   "val": [
+    "CC 0.33",
+    "CC 0.40",
+    "CC 0.41"
+   ],
+   "test": null
+  }
+ },
+ "finished_utc": "2026-11-20T20:57:43Z"
+}

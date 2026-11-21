@@ -1,0 +1,127 @@
+[
+ {
+  "label": "Canto-L (full budget): learned triplet union, learned merging (rule R6)",
+  "short": "Canto-L",
+  "group": "Canto (full budget)",
+  "entries": [
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0",
+    "sub": "trackbuild_test",
+    "cut": 0,
+    "wp": "mwslmerge 0.1 (trackbuild_test, configuration 0)"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1",
+    "sub": "trackbuild_test",
+    "cut": 0,
+    "wp": "mwslmerge 0.1 (trackbuild_test, configuration 0)"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2",
+    "sub": "trackbuild_test",
+    "cut": 0,
+    "wp": "mwslmerge 0.1 (trackbuild_test, configuration 0)"
+   }
+  ]
+ },
+ {
+  "label": "acorn IGNN, HNL-trained + CC (prereg. cut rule)",
+  "short": "acorn (HNL) CC",
+  "group": "acorn",
+  "entries": [
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0",
+    "sub": "eval_test",
+    "cut": 0.36,
+    "wp": "CC 0.36"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1",
+    "sub": "eval_test",
+    "cut": 0.28,
+    "wp": "CC 0.28"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2",
+    "sub": "eval_test",
+    "cut": 0.26,
+    "wp": "CC 0.26"
+   }
+  ]
+ },
+ {
+  "label": "acorn IGNN, HNL-trained + CC (best cut <= FR*)",
+  "short": "acorn (HNL) CC*",
+  "group": "acorn",
+  "entries": [
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0",
+    "sub": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/published_defs_v1/armii_s0/eval_test_bestcut",
+    "cut": 0.33,
+    "wp": "CC 0.33 (post-freeze CC on the stored test scores)"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1",
+    "sub": "eval_test",
+    "cut": 0.4,
+    "wp": "CC 0.40"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2",
+    "sub": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/published_defs_v1/armii_s2/eval_test_bestcut",
+    "cut": 0.41,
+    "wp": "CC 0.41 (post-freeze CC on the stored test scores)"
+   }
+  ]
+ },
+ {
+  "label": "acorn IGNN, ttbar-trained + CC (prereg. cut rule)",
+  "short": "acorn (ttbar) CC",
+  "group": "acorn",
+  "entries": [
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0",
+    "sub": "eval_test",
+    "cut": 0.37,
+    "wp": "CC 0.37"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1",
+    "sub": "eval_test",
+    "cut": 0.34,
+    "wp": "CC 0.34"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2",
+    "sub": "eval_test",
+    "cut": 0.34,
+    "wp": "CC 0.34"
+   }
+  ]
+ },
+ {
+  "label": "acorn IGNN, ttbar-trained + CC (best cut <= FR*)",
+  "short": "acorn (ttbar) CC*",
+  "group": "acorn",
+  "entries": [
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0",
+    "sub": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/published_defs_v1/armi_s0/eval_test_bestcut",
+    "cut": 0.34,
+    "wp": "CC 0.34 (post-freeze CC on the stored test scores)"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1",
+    "sub": "eval_test",
+    "cut": 0.34,
+    "wp": "CC 0.34"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2",
+    "sub": "eval_test",
+    "cut": 0.34,
+    "wp": "CC 0.34"
+   }
+  ]
+ }
+]

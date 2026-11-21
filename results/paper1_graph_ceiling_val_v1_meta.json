@@ -1,0 +1,18 @@
+{
+ "script": "analysis/paper1/graph_ceiling_bins.py",
+ "git": "e63ff6ac7a8960c8893e9bfab84d3d2dccdac45b",
+ "job": "59806868",
+ "split": "validation (2,999 events)",
+ "sources": {
+  "acorn (ttbar) s0": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0/eval_val/ceiling_particle.parquet",
+  "acorn (ttbar) s1": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1/eval_val/ceiling_particle.parquet",
+  "acorn (ttbar) s2": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2/eval_val/ceiling_particle.parquet",
+  "acorn (HNL) s0": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0/eval_val/ceiling_particle.parquet",
+  "acorn (HNL) s1": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1/eval_val/ceiling_particle.parquet",
+  "acorn (HNL) s2": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2/eval_val/ceiling_particle.parquet",
+  "Canto (ttbar) s0": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/eval_val/ceiling_particle.parquet",
+  "Canto (ttbar) s1": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/eval_val/ceiling_particle.parquet",
+  "Canto (ttbar) s2": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/eval_val/ceiling_particle.parquet"
+ },
+ "rows": 297
+}

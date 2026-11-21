@@ -1,0 +1,4 @@
+label,run,working_point,n_events,eff_primary,eff_hnl_targets,eff_w_muons,eff_ttbar_prompt,fake_rate_hnl,n_d0_100,k_d0_100,n_d0_300,k_d0_300
+Canto-L classifier + CC (best cut <= FR*),/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0,CC 0.47,2999,0.9759579263711495,0.9775342465753425,0.990904226859283,0.8386778490379871,0.030597194564194585,167,164,19,17
+Canto-L classifier + CC (best cut <= FR*),/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1,CC 0.45,2999,0.9752066115702479,0.9786301369863014,0.994649545211343,0.8338772722097834,0.030733554852228194,167,157,19,14
+Canto-L classifier + CC (best cut <= FR*),/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2,CC 0.44,2999,0.9737039819684448,0.976986301369863,0.9935794542536116,0.8313156995939434,0.03027624889526693,167,159,19,15

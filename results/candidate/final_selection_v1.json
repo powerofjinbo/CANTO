@@ -1,0 +1,148 @@
+{
+ "created_utc": "2026-11-20T16:39:42Z",
+ "working_points": "/pub/jinboz1/hnl_lrt/hpc3_v1/results/working_points_v1.json",
+ "working_points_sha256": "738e33c6ec5b1cd3ea007d82cee3c9d0590411ac4c120b48a0dd84187e1afe39",
+ "FR_star": 0.030899843571822436,
+ "e_star": 0.012040748129385423,
+ "reference_arm": "ii",
+ "grid": "trackbuild_val_lmerge",
+ "rules": "builder rule, R6 (best guarded family per pipeline, 3-seed means) and R8 (best pipeline), each with the one-standard-error tie rule: lowest fake rate within one binomial SE of the best",
+ "candidate": {
+  "pipeline": "l1tl",
+  "family": "mwslmerge"
+ },
+ "pipelines": {
+  "l1tl": {
+   "dir": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl",
+   "graphs": "ltf_union_graphs",
+   "seeds": {
+    "0": {
+     "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0",
+     "cut_e": 0.18,
+     "merge_model": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/lmerge/model.joblib",
+     "config": "mwslmerge,0.1",
+     "llp_blind_config": "mwslmerge,0.05"
+    },
+    "1": {
+     "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1",
+     "cut_e": 0.22,
+     "merge_model": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/lmerge/model.joblib",
+     "config": "mwslmerge,0.1",
+     "llp_blind_config": "mwslmerge,0.1"
+    },
+    "2": {
+     "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2",
+     "cut_e": 0.21,
+     "merge_model": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/lmerge/model.joblib",
+     "config": "mwslmerge,0.1",
+     "llp_blind_config": "mwslmerge,0.03"
+    }
+   },
+   "family": "mwslmerge"
+  }
+ },
+ "runs": {
+  "l1tl_s0": {
+   "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0",
+   "grid": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0/trackbuild_val_lmerge",
+   "families_without_config": [],
+   "baseline_cuts": {
+    "arm_i": "0.37",
+    "ref": "0.36"
+   },
+   "baseline_reachable": {
+    "arm_i": true,
+    "ref": true
+   },
+   "baseline_rows": {
+    "arm_i": {
+     "eff_primary": 0.9166040570999249,
+     "eff_hnl_targets": 0.9276712328767124,
+     "eff_w_muons": 0.9882289994649546,
+     "eff_ttbar_prompt": 0.8576524610071724,
+     "fake_rate_hnl": 0.030274122377150225,
+     "eff_ttbar_targets": 0.8038428261259938,
+     "fake_rate_ttbar": 0.07276354208618606
+    },
+    "ref": {
+     "eff_primary": 0.9511645379413974,
+     "eff_hnl_targets": 0.9556164383561644,
+     "eff_w_muons": 0.9903691813804173,
+     "eff_ttbar_prompt": 0.8474820689916891,
+     "fake_rate_hnl": 0.03077748597454041,
+     "eff_ttbar_targets": 0.7958763896371027,
+     "fake_rate_ttbar": 0.07701110907378018
+    }
+   },
+   "cut_e": 0.18
+  },
+  "l1tl_s1": {
+   "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1",
+   "grid": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1/trackbuild_val_lmerge",
+   "families_without_config": [],
+   "baseline_cuts": {
+    "arm_i": "0.34",
+    "ref": "0.28"
+   },
+   "baseline_reachable": {
+    "arm_i": true,
+    "ref": true
+   },
+   "baseline_rows": {
+    "arm_i": {
+     "eff_primary": 0.9151014274981217,
+     "eff_hnl_targets": 0.924931506849315,
+     "eff_w_muons": 0.9914392723381488,
+     "eff_ttbar_prompt": 0.8605366020264885,
+     "fake_rate_hnl": 0.030580159529697032,
+     "eff_ttbar_targets": 0.8088381735964869,
+     "fake_rate_ttbar": 0.07278327832783278
+    },
+    "ref": {
+     "eff_primary": 0.9188580015026296,
+     "eff_hnl_targets": 0.9189041095890411,
+     "eff_w_muons": 0.9785981808453719,
+     "eff_ttbar_prompt": 0.8097415657849797,
+     "fake_rate_hnl": 0.030834137573820423,
+     "eff_ttbar_targets": 0.7632923584243433,
+     "fake_rate_ttbar": 0.08395155870340691
+    }
+   },
+   "cut_e": 0.22
+  },
+  "l1tl_s2": {
+   "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2",
+   "grid": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2/trackbuild_val_lmerge",
+   "families_without_config": [],
+   "baseline_cuts": {
+    "arm_i": "0.34",
+    "ref": "0.26"
+   },
+   "baseline_reachable": {
+    "arm_i": true,
+    "ref": true
+   },
+   "baseline_rows": {
+    "arm_i": {
+     "eff_primary": 0.9015777610818934,
+     "eff_hnl_targets": 0.9210958904109589,
+     "eff_w_muons": 0.9903691813804173,
+     "eff_ttbar_prompt": 0.8630792000303594,
+     "fake_rate_hnl": 0.030392951449711103,
+     "eff_ttbar_targets": 0.8098666274874708,
+     "fake_rate_ttbar": 0.07187460736273402
+    },
+    "ref": {
+     "eff_primary": 0.9143501126972201,
+     "eff_hnl_targets": 0.9194520547945205,
+     "eff_w_muons": 0.9796682718031032,
+     "eff_ttbar_prompt": 0.8447307502561573,
+     "fake_rate_hnl": 0.03086932754996378,
+     "eff_ttbar_targets": 0.7962681815955728,
+     "fake_rate_ttbar": 0.0771671003217165
+    }
+   },
+   "cut_e": 0.21
+  }
+ }
+}

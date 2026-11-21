@@ -1,0 +1,13 @@
+run,family,label_key,params,eff_primary,fake_rate_hnl,n_family_configs,extension_steps,edges,status,next_extension
+armi_s0,acwalk,acwalk,"0.002,0.002,0.6",0.9556724267468069,0.02687985912543222,30,1,interior,interior,
+armi_s0,mwslmerge,lmerge,0.05,0.9676934635612322,0.013784814890850613,9,0,interior,interior,
+armi_s1,acwalk,acwalk,"0.01,0.01,0.6",0.9338842975206612,0.025722220558092167,30,1,interior,interior,
+armi_s1,mwslmerge,lmerge,0.03,0.9631855747558227,0.014706133898942902,9,0,interior,interior,
+armi_s2,acwalk,acwalk,"0.01,0.02,0.6",0.9436513899323816,0.02209911663422668,30,1,interior,interior,
+armi_s2,mwslmerge,lmerge,0.05,0.9609316303531179,0.014485627674902838,9,0,interior,interior,
+armii_s0,acwalk,acwalk,"0.01,0.15,0.6",0.9797145003756574,0.016818473380372033,30,1,interior,interior,
+armii_s0,mwslmerge,lmerge,0.1,0.9797145003756574,0.015127306903622692,9,0,interior,interior,
+armii_s1,acwalk,acwalk,"0.01,0.2,0.8",0.9827197595792637,0.016107858941850073,30,1,interior,interior,
+armii_s1,mwslmerge,lmerge,0.1,0.9819684447783621,0.014976633717502926,9,0,interior,interior,
+armii_s2,acwalk,acwalk,"0.01,0.2,0.8",0.9737039819684448,0.015945135386050253,30,1,interior,interior,
+armii_s2,mwslmerge,lmerge,0.1,0.976709241172051,0.0147173893523408,9,0,interior,interior,

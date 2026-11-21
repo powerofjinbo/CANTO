@@ -1,0 +1,33 @@
+acorn after 60 epochs with LM and with CC, validation (pooled HNL val, displaced daughters; FR* = 0.030900); means of three seeds +- combined sigma; differences in points.
+
+- Canto-L (frozen: learned merging): 98.47 +- 0.36 % (seed sd 0.28; fake rate 1.00 %); mwslmerge 0.1 (trackbuild_val_lmerge); mwslmerge 0.1 (trackbuild_val_lmerge); mwslmerge 0.1 (trackbuild_val_lmerge)
+- acorn (HNL), 60 epochs + LM: 98.17 +- 0.35 % (seed sd 0.24; fake rate 1.40 %); mwslmerge 0.03 (trackbuild_val_lm60); mwslmerge 0.1 (trackbuild_val_lm60); mwslmerge 0.05 (trackbuild_val_lm60)
+- acorn (HNL), 30 epochs + LM: 97.95 +- 0.39 % (seed sd 0.26; fake rate 1.49 %); mwslmerge 0.1 (trackbuild_val_fb3_all); mwslmerge 0.1 (trackbuild_val_fb3_all); mwslmerge 0.1 (trackbuild_val_fb3_all)
+- acorn (ttbar), 60 epochs + LM: 96.42 +- 0.78 % (seed sd 1.09; fake rate 1.40 %); mwslmerge 0.05 (trackbuild_val_lm60); mwslmerge 0.02 (trackbuild_val_lm60); mwslmerge 0.05 (trackbuild_val_lm60)
+- acorn (ttbar), 30 epochs + LM: 96.39 +- 0.49 % (seed sd 0.34; fake rate 1.43 %); mwslmerge 0.05 (trackbuild_val_fb3_all); mwslmerge 0.03 (trackbuild_val_fb3_all); mwslmerge 0.05 (trackbuild_val_fb3_all)
+- acorn (HNL), 60 epochs + CC, most efficient cut within FR*: 95.24 +- 1.08 % (seed sd 1.65; fake rate 3.02 %); CC 0.38; CC 0.37; CC 0.38
+- acorn (HNL), 30 epochs + CC, most efficient cut within FR*: 95.24 +- 0.57 % (seed sd 0.38; fake rate 2.99 %); CC 0.33; CC 0.40; CC 0.41
+- acorn (HNL), 60 epochs + CC, preregistered cut rule: 94.21 +- 1.57 % (seed sd 2.54; fake rate 3.05 %); CC 0.39; CC 0.31; CC 0.29
+- acorn (HNL), 30 epochs + CC, preregistered cut rule: 92.81 +- 1.32 % (seed sd 2.01; fake rate 3.08 %); CC 0.36; CC 0.28; CC 0.26
+- acorn (ttbar), 60 epochs + CC, most efficient cut within FR*: 91.94 +- 1.04 % (seed sd 1.41; fake rate 3.04 %); CC 0.40; CC 0.32 (FR* unreachable: minimum-rate cut); CC 0.33
+- acorn (ttbar), 60 epochs + CC, preregistered cut rule: 91.91 +- 1.02 % (seed sd 1.36; fake rate 3.10 %); CC 0.42; CC 0.32 (FR* unreachable: minimum-rate cut); CC 0.34
+- acorn (ttbar), 30 epochs + CC, most efficient cut within FR*: 91.16 +- 0.85 % (seed sd 0.88; fake rate 2.99 %); CC 0.34; CC 0.34; CC 0.34
+- acorn (ttbar), 30 epochs + CC, preregistered cut rule: 91.11 +- 0.83 % (seed sd 0.83; fake rate 3.04 %); CC 0.37; CC 0.34; CC 0.34
+- Canto (ttbar) minus acorn (HNL), 30 epochs + LM: +0.53 +- 0.43 (bootstrap 0.36, seeds 0.22)
+- Canto (ttbar) minus acorn (HNL), 60 epochs + LM: +0.30 +- 0.39 (bootstrap 0.32, seeds 0.22)
+- acorn (HNL) + LM: 60 minus 30 epochs: +0.23 +- 0.29 (bootstrap 0.21, seeds 0.21); seed term paired by seed 0.04, paired sigma 0.21; per seed 0.003005259204;0.001502629602;0.002253944403
+- Canto (ttbar) minus acorn (HNL), 30 epochs + CC, most efficient cut within FR*: +3.23 +- 0.57 (bootstrap 0.50, seeds 0.27)
+- Canto (ttbar) minus acorn (HNL), 60 epochs + CC, most efficient cut within FR*: +3.23 +- 1.09 (bootstrap 0.50, seeds 0.97)
+- acorn (HNL) + CC, most efficient cut within FR*: 60 minus 30 epochs: +0.00 +- 1.04 (bootstrap 0.35, seeds 0.98); seed term paired by seed 1.00, paired sigma 1.06; per seed 0.01953418482;-0.006010518407;-0.01352366642
+- Canto (ttbar) minus acorn (HNL), 30 epochs + CC, preregistered cut rule: +5.66 +- 1.32 (bootstrap 0.61, seeds 1.17)
+- Canto (ttbar) minus acorn (HNL), 60 epochs + CC, preregistered cut rule: +4.26 +- 1.58 (bootstrap 0.55, seeds 1.48)
+- acorn (HNL) + CC, preregistered cut rule: 60 minus 30 epochs: +1.40 +- 1.92 (bootstrap 0.43, seeds 1.87); seed term paired by seed 0.31, paired sigma 0.53; per seed 0.02028549962;0.01051840721;0.01126972201
+- Canto (ttbar) minus acorn (ttbar), 30 epochs + LM: +2.08 +- 0.51 (bootstrap 0.44, seeds 0.26)
+- Canto (ttbar) minus acorn (ttbar), 60 epochs + LM: +2.05 +- 0.79 (bootstrap 0.44, seeds 0.65)
+- acorn (ttbar) + LM: 60 minus 30 epochs: +0.03 +- 0.70 (bootstrap 0.22, seeds 0.66); seed term paired by seed 0.44, paired sigma 0.49; per seed 0.009015777611;-0.003756574005;-0.004507888805
+- Canto (ttbar) minus acorn (ttbar), 30 epochs + CC, most efficient cut within FR*: +7.31 +- 0.85 (bootstrap 0.66, seeds 0.53)
+- Canto (ttbar) minus acorn (ttbar), 60 epochs + CC, most efficient cut within FR*: +6.54 +- 1.04 (bootstrap 0.64, seeds 0.83)
+- acorn (ttbar) + CC, most efficient cut within FR*: 60 minus 30 epochs: +0.78 +- 1.03 (bootstrap 0.38, seeds 0.96); seed term paired by seed 0.71, paired sigma 0.80; per seed 0.01728024042;-0.006010518407;0.01202103681
+- Canto (ttbar) minus acorn (ttbar), 30 epochs + CC, preregistered cut rule: +7.36 +- 0.82 (bootstrap 0.65, seeds 0.51)
+- Canto (ttbar) minus acorn (ttbar), 60 epochs + CC, preregistered cut rule: +6.56 +- 1.02 (bootstrap 0.63, seeds 0.80)
+- acorn (ttbar) + CC, preregistered cut rule: 60 minus 30 epochs: +0.80 +- 0.99 (bootstrap 0.37, seeds 0.92); seed term paired by seed 0.72, paired sigma 0.81; per seed 0.01803155522;-0.006010518407;0.01202103681

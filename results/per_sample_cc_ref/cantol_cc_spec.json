@@ -1,0 +1,21 @@
+[
+ {
+  "label": "Canto-L classifier + CC (best cut <= FR*)",
+  "group": "Canto",
+  "short": "Canto-L CC*",
+  "entries": [
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0",
+    "source": "eval_val"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1",
+    "source": "eval_val"
+   },
+   {
+    "run": "/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2",
+    "source": "eval_val"
+   }
+  ]
+ }
+]

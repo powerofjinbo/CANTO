@@ -1,0 +1,632 @@
+check,value,reference,ok
+Canto-L classifier + CC (rule s4) seed 0: working_point = reference read-out,CC 0.47,CC 0.47,True
+Canto-L classifier + CC (rule s4) seed 0: n_events = reference read-out,2999.0,2999.0,True
+Canto-L classifier + CC (rule s4) seed 0: eff_primary = reference read-out,0.9759579263711495,0.9759579263711496,True
+Canto-L classifier + CC (rule s4) seed 0: eff_hnl_targets = reference read-out,0.9775342465753425,0.9775342465753424,True
+Canto-L classifier + CC (rule s4) seed 0: eff_w_muons = reference read-out,0.990904226859283,0.990904226859283,True
+Canto-L classifier + CC (rule s4) seed 0: eff_ttbar_prompt = reference read-out,0.8386778490379871,0.8386778490379871,True
+Canto-L classifier + CC (rule s4) seed 0: fake_rate_hnl = reference read-out,0.030597194564194585,0.0305971945641945,True
+Canto-L classifier + CC (rule s4) seed 0: n_d0_100 = reference read-out,167.0,167.0,True
+Canto-L classifier + CC (rule s4) seed 0: k_d0_100 = reference read-out,164.0,164.0,True
+Canto-L classifier + CC (rule s4) seed 0: n_d0_300 = reference read-out,19.0,19.0,True
+Canto-L classifier + CC (rule s4) seed 0: k_d0_300 = reference read-out,17.0,17.0,True
+Canto-L classifier + CC (rule s4) seed 1: working_point = reference read-out,CC 0.45,CC 0.45,True
+Canto-L classifier + CC (rule s4) seed 1: n_events = reference read-out,2999.0,2999.0,True
+Canto-L classifier + CC (rule s4) seed 1: eff_primary = reference read-out,0.9752066115702479,0.975206611570248,True
+Canto-L classifier + CC (rule s4) seed 1: eff_hnl_targets = reference read-out,0.9786301369863014,0.9786301369863014,True
+Canto-L classifier + CC (rule s4) seed 1: eff_w_muons = reference read-out,0.994649545211343,0.994649545211343,True
+Canto-L classifier + CC (rule s4) seed 1: eff_ttbar_prompt = reference read-out,0.8338772722097834,0.8338772722097834,True
+Canto-L classifier + CC (rule s4) seed 1: fake_rate_hnl = reference read-out,0.030733554852228194,0.0307335548522281,True
+Canto-L classifier + CC (rule s4) seed 1: n_d0_100 = reference read-out,167.0,167.0,True
+Canto-L classifier + CC (rule s4) seed 1: k_d0_100 = reference read-out,157.0,157.0,True
+Canto-L classifier + CC (rule s4) seed 1: n_d0_300 = reference read-out,19.0,19.0,True
+Canto-L classifier + CC (rule s4) seed 1: k_d0_300 = reference read-out,14.0,14.0,True
+Canto-L classifier + CC (rule s4) seed 2: working_point = reference read-out,CC 0.44,CC 0.44,True
+Canto-L classifier + CC (rule s4) seed 2: n_events = reference read-out,2999.0,2999.0,True
+Canto-L classifier + CC (rule s4) seed 2: eff_primary = reference read-out,0.9737039819684448,0.9737039819684448,True
+Canto-L classifier + CC (rule s4) seed 2: eff_hnl_targets = reference read-out,0.976986301369863,0.976986301369863,True
+Canto-L classifier + CC (rule s4) seed 2: eff_w_muons = reference read-out,0.9935794542536116,0.9935794542536116,True
+Canto-L classifier + CC (rule s4) seed 2: eff_ttbar_prompt = reference read-out,0.8313156995939434,0.8313156995939434,True
+Canto-L classifier + CC (rule s4) seed 2: fake_rate_hnl = reference read-out,0.03027624889526693,0.0302762488952669,True
+Canto-L classifier + CC (rule s4) seed 2: n_d0_100 = reference read-out,167.0,167.0,True
+Canto-L classifier + CC (rule s4) seed 2: k_d0_100 = reference read-out,159.0,159.0,True
+Canto-L classifier + CC (rule s4) seed 2: n_d0_300 = reference read-out,19.0,19.0,True
+Canto-L classifier + CC (rule s4) seed 2: k_d0_300 = reference read-out,15.0,15.0,True
+val Canto-L seed 0: run = final selection,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0,True
+val Canto-L seed 0: configuration = final selection,"mwslmerge,0.1","mwslmerge,0.1",True
+val Canto-L seed 1: run = final selection,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1,True
+val Canto-L seed 1: configuration = final selection,"mwslmerge,0.1","mwslmerge,0.1",True
+val Canto-L seed 2: run = final selection,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2,True
+val Canto-L seed 2: configuration = final selection,"mwslmerge,0.1","mwslmerge,0.1",True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: cut = preregistered cut",0.36,0.36,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: cut = preregistered cut",0.28,0.28,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: cut = preregistered cut",0.26,0.26,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: cut = preregistered cut",0.37,0.37,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: cut = preregistered cut",0.34,0.34,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: cut = preregistered cut",0.34,0.34,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 0: run = Canto-L's",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 1: run = Canto-L's",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 2: run = Canto-L's",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 0: run = Canto-L's",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 1: run = Canto-L's",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 2: run = Canto-L's",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 0: learned merging,mwslmerge,mwslmerge,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 1: learned merging,mwslmerge,mwslmerge,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 2: learned merging,mwslmerge,mwslmerge,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: learned merging,mwslmerge,mwslmerge,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: learned merging,mwslmerge,mwslmerge,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: learned merging,mwslmerge,mwslmerge,True
+val Canto-L (frozen: learned merging) seed 0: pooled primary = v3 entry,0.9879789631855748,0.9879789631855748,True
+val Canto-L (frozen: learned merging) seed 0: k hnl10_100 + hnl15_200 = pooled,1315.0,1315.0,True
+val Canto-L (frozen: learned merging) seed 0: n hnl10_100 + hnl15_200 = pooled,1331.0,1331.0,True
+val Canto-L (frozen: learned merging) seed 0: pooled n = v3 primary particles per seed,1331.0,1331,True
+val Canto-L (frozen: learned merging) seed 1: pooled primary = v3 entry,0.9834710743801653,0.9834710743801652,True
+val Canto-L (frozen: learned merging) seed 1: k hnl10_100 + hnl15_200 = pooled,1309.0,1309.0,True
+val Canto-L (frozen: learned merging) seed 1: n hnl10_100 + hnl15_200 = pooled,1331.0,1331.0,True
+val Canto-L (frozen: learned merging) seed 1: pooled n = v3 primary particles per seed,1331.0,1331,True
+val Canto-L (frozen: learned merging) seed 2: pooled primary = v3 entry,0.9827197595792637,0.9827197595792636,True
+val Canto-L (frozen: learned merging) seed 2: k hnl10_100 + hnl15_200 = pooled,1308.0,1308.0,True
+val Canto-L (frozen: learned merging) seed 2: n hnl10_100 + hnl15_200 = pooled,1331.0,1331.0,True
+val Canto-L (frozen: learned merging) seed 2: pooled n = v3 primary particles per seed,1331.0,1331,True
+val Canto-L (frozen: learned merging): pooled seed mean = v3 val table,0.9847232657150014,0.9847232657150014,True
+val Canto-L (frozen: learned merging): pooled seed sd = v3 val table,0.002844431928775485,0.0028444319287754,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 0: pooled primary = v3 entry,0.9797145003756574,0.9797145003756574,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 0: k hnl10_100 + hnl15_200 = pooled,1304.0,1304.0,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 0: n hnl10_100 + hnl15_200 = pooled,1331.0,1331.0,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 0: pooled n = v3 primary particles per seed,1331.0,1331,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 1: pooled primary = v3 entry,0.9819684447783621,0.981968444778362,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 1: k hnl10_100 + hnl15_200 = pooled,1307.0,1307.0,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 1: n hnl10_100 + hnl15_200 = pooled,1331.0,1331.0,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 1: pooled n = v3 primary particles per seed,1331.0,1331,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 2: pooled primary = v3 entry,0.976709241172051,0.976709241172051,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 2: k hnl10_100 + hnl15_200 = pooled,1300.0,1300.0,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 2: n hnl10_100 + hnl15_200 = pooled,1331.0,1331.0,True
+val acorn (HNL) val-best (MWS-layer + learned merging) seed 2: pooled n = v3 primary particles per seed,1331.0,1331,True
+val acorn (HNL) val-best (MWS-layer + learned merging): pooled seed mean = v3 val table,0.9794640621086902,0.9794640621086902,True
+val acorn (HNL) val-best (MWS-layer + learned merging): pooled seed sd = v3 val table,0.0026385308672308436,0.0026385308672308,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: pooled primary = v3 entry,0.9676934635612322,0.9676934635612322,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: k hnl10_100 + hnl15_200 = pooled,1288.0,1288.0,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: n hnl10_100 + hnl15_200 = pooled,1331.0,1331.0,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: pooled n = v3 primary particles per seed,1331.0,1331,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: pooled primary = v3 entry,0.9631855747558227,0.9631855747558228,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: k hnl10_100 + hnl15_200 = pooled,1282.0,1282.0,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: n hnl10_100 + hnl15_200 = pooled,1331.0,1331.0,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: pooled n = v3 primary particles per seed,1331.0,1331,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: pooled primary = v3 entry,0.9609316303531179,0.960931630353118,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: k hnl10_100 + hnl15_200 = pooled,1279.0,1279.0,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: n hnl10_100 + hnl15_200 = pooled,1331.0,1331.0,True
+val acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: pooled n = v3 primary particles per seed,1331.0,1331,True
+val acorn (ttbar) val-best (MWS-layer + learned merging): pooled seed mean = v3 val table,0.9639368895567243,0.9639368895567244,True
+val acorn (ttbar) val-best (MWS-layer + learned merging): pooled seed sd = v3 val table,0.0034429569458722066,0.0034429569458722,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: pooled primary = v3 entry",0.9511645379413974,0.9511645379413974,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: k hnl10_100 + hnl15_200 = pooled",1266.0,1266.0,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: pooled primary = v3 entry",0.9188580015026296,0.9188580015026296,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: k hnl10_100 + hnl15_200 = pooled",1223.0,1223.0,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: pooled primary = v3 entry",0.9143501126972201,0.91435011269722,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: k hnl10_100 + hnl15_200 = pooled",1217.0,1217.0,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference): pooled seed mean = v3 val table",0.9281242173804157,0.9281242173804156,True
+"val acorn (HNL) + CC, preregistered cut (claims' reference): pooled seed sd = v3 val table",0.020080401988881634,0.0200804019888816,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: pooled primary = v3 entry",0.9166040570999249,0.9166040570999248,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: k hnl10_100 + hnl15_200 = pooled",1220.0,1220.0,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: pooled primary = v3 entry",0.9151014274981217,0.9151014274981216,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: k hnl10_100 + hnl15_200 = pooled",1218.0,1218.0,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: pooled primary = v3 entry",0.9015777610818934,0.9015777610818934,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: k hnl10_100 + hnl15_200 = pooled",1200.0,1200.0,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut): pooled seed mean = v3 val table",0.9110944152266466,0.9110944152266466,True
+"val acorn (ttbar) + CC, preregistered cut (= best cut): pooled seed sd = v3 val table",0.008275838538371284,0.0082758385383712,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 0: k hnl10_100 + hnl15_200 = pooled",1299.0,1299.0,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 0: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 0: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 1: k hnl10_100 + hnl15_200 = pooled",1301.0,1301.0,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 1: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 1: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 2: k hnl10_100 + hnl15_200 = pooled",1299.0,1299.0,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 2: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val Canto-L classifier + CC, best cut <= FR* (validation only) seed 2: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 0: k hnl10_100 + hnl15_200 = pooled",1299.0,1299.0,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 0: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 0: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 1: k hnl10_100 + hnl15_200 = pooled",1298.0,1298.0,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 1: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 1: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 2: k hnl10_100 + hnl15_200 = pooled",1296.0,1296.0,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 2: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val Canto-L classifier + CC, preregistered cut rule (validation only) seed 2: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 0: pooled primary = v3 entry",0.9519158527422991,0.9519158527422992,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 0: k hnl10_100 + hnl15_200 = pooled",1267.0,1267.0,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 0: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 0: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 1: pooled primary = v3 entry",0.9489105935386927,0.9489105935386928,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 1: k hnl10_100 + hnl15_200 = pooled",1263.0,1263.0,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 1: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 1: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 2: pooled primary = v3 entry",0.9564237415477085,0.9564237415477084,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 2: k hnl10_100 + hnl15_200 = pooled",1273.0,1273.0,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 2: n hnl10_100 + hnl15_200 = pooled",1331.0,1331.0,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only) seed 2: pooled n = v3 primary particles per seed",1331.0,1331,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only): pooled seed mean = v3 val table",0.9524167292762334,0.9524167292762334,True
+"val acorn (HNL) + CC, best cut <= FR* (validation only): pooled seed sd = v3 val table",0.003781534903716893,0.0037815349037168,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): value_new = v3 val differences,0.9847232657150014,0.9847232657150014,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma_new = v3 val differences,0.003606721968647528,0.0036067219686475,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): s_seeds_new = v3 val differences,0.002844431928775485,0.0028444319287754,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): value_base = v3 val differences,0.9794640621086902,0.9794640621086902,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma_base = v3 val differences,0.003882424578327804,0.0038824245783278,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): s_seeds_base = v3 val differences,0.0026385308672308436,0.0026385308672308,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): difference = v3 val differences,0.005259203606311158,0.0052592036063111,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma_boot = v3 val differences,0.0036269781588920786,0.003626978158892,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma_seeds = v3 val differences,0.002239987956423529,0.0022399879564235,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma = v3 val differences,0.004262923481603045,0.004262923481603,True
+val pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): z = v3 val differences,1.2337081885254644,1.2337081885254644,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): value_new = v3 val differences,0.9847232657150014,0.9847232657150014,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_new = v3 val differences,0.003606721968647528,0.0036067219686475,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): s_seeds_new = v3 val differences,0.002844431928775485,0.0028444319287754,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): value_base = v3 val differences,0.9639368895567243,0.9639368895567244,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_base = v3 val differences,0.00490775453272055,0.0049077545327205,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): s_seeds_base = v3 val differences,0.0034429569458722066,0.0034429569458722,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): difference = v3 val differences,0.020786376158277053,0.020786376158277,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_boot = v3 val differences,0.004404586287069943,0.0044045862870699,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_seeds = v3 val differences,0.002578419769843996,0.0025784197698439,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma = v3 val differences,0.005103785739014418,0.0051037857390144,True
+val pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): z = v3 val differences,4.072736831286156,4.072736831286156,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): value_new = v3 val differences",0.9847232657150014,0.9847232657150014,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_new = v3 val differences",0.003606721968647528,0.0036067219686475,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): s_seeds_new = v3 val differences",0.002844431928775485,0.0028444319287754,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): value_base = v3 val differences",0.9281242173804157,0.9281242173804156,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_base = v3 val differences",0.013235086399197371,0.0132350863991973,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): s_seeds_base = v3 val differences",0.020080401988881634,0.0200804019888816,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): difference = v3 val differences",0.05659904833458562,0.0565990483345856,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_boot = v3 val differences",0.006124227998438473,0.0061242279984384,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_seeds = v3 val differences",0.011709160758889014,0.011709160758889,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma = v3 val differences",0.013214030961609103,0.0132140309616091,True
+"val pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): z = v3 val differences",4.283253800375039,4.283253800375039,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): value_new = v3 val differences",0.9847232657150014,0.9847232657150014,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_new = v3 val differences",0.003606721968647528,0.0036067219686475,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): s_seeds_new = v3 val differences",0.002844431928775485,0.0028444319287754,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): value_base = v3 val differences",0.9110944152266466,0.9110944152266466,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_base = v3 val differences",0.0082582441210994,0.0082582441210994,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): s_seeds_base = v3 val differences",0.008275838538371284,0.0082758385383712,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): difference = v3 val differences",0.07362885048835477,0.0736288504883547,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_boot = v3 val differences",0.006490812207742104,0.0064908122077421,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_seeds = v3 val differences",0.005052401953877276,0.0050524019538772,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma = v3 val differences",0.008225412367761075,0.008225412367761,True
+"val pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): z = v3 val differences",8.951387139803211,8.951387139803211,True
+test Canto-L (frozen: learned merging) seed 0: run = val entry's run,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s0,True
+test Canto-L seed 0: configuration 0 = final selection,"mwslmerge,0.1","mwslmerge,0.1",True
+test Canto-L seed 0: the test job's selection copy = results/final_selection_v1.json,1,1,True
+test Canto-L seed 0: configuration = val working point,"mwslmerge,0.1","mwslmerge,0.1",True
+test Canto-L (frozen: learned merging) seed 1: run = val entry's run,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s1,True
+test Canto-L seed 1: configuration 0 = final selection,"mwslmerge,0.1","mwslmerge,0.1",True
+test Canto-L seed 1: the test job's selection copy = results/final_selection_v1.json,1,1,True
+test Canto-L seed 1: configuration = val working point,"mwslmerge,0.1","mwslmerge,0.1",True
+test Canto-L (frozen: learned merging) seed 2: run = val entry's run,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/stage1_final_learned/l1tl/armi_s2,True
+test Canto-L seed 2: configuration 0 = final selection,"mwslmerge,0.1","mwslmerge,0.1",True
+test Canto-L seed 2: the test job's selection copy = results/final_selection_v1.json,1,1,True
+test Canto-L seed 2: configuration = val working point,"mwslmerge,0.1","mwslmerge,0.1",True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0: run = val entry's run,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0: configuration = val working point,mwslmerge 0.1 (trackbuild_val_fb3_all),mwslmerge 0.1 (trackbuild_val_fb3_all),True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0: output provenance and checksums (strong_baselines_v3),1,1,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1: run = val entry's run,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1: configuration = val working point,mwslmerge 0.1 (trackbuild_val_fb3_all),mwslmerge 0.1 (trackbuild_val_fb3_all),True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1: output provenance and checksums (strong_baselines_v3),1,1,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2: run = val entry's run,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2: configuration = val working point,mwslmerge 0.1 (trackbuild_val_fb3_all),mwslmerge 0.1 (trackbuild_val_fb3_all),True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2: output provenance and checksums (strong_baselines_v3),1,1,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: run = val entry's run,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: configuration = val working point,mwslmerge 0.05 (trackbuild_val_fb3_all),mwslmerge 0.05 (trackbuild_val_fb3_all),True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: output provenance and checksums (strong_baselines_v3),1,1,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: run = val entry's run,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: configuration = val working point,mwslmerge 0.03 (trackbuild_val_fb3_all),mwslmerge 0.03 (trackbuild_val_fb3_all),True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: output provenance and checksums (strong_baselines_v3),1,1,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: run = val entry's run,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: configuration = val working point,mwslmerge 0.05 (trackbuild_val_fb3_all),mwslmerge 0.05 (trackbuild_val_fb3_all),True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: output provenance and checksums (strong_baselines_v3),1,1,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: run = val entry's run",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: cut = preregistered cut",0.36,0.36,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: cut = val working point",0.36,0.36,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: cut held by the stored table",1,1,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: run = val entry's run",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: cut = preregistered cut",0.28,0.28,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: cut = val working point",0.28,0.28,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: cut held by the stored table",1,1,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: run = val entry's run",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: cut = preregistered cut",0.26,0.26,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: cut = val working point",0.26,0.26,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: cut held by the stored table",1,1,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: run = val entry's run",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: cut = preregistered cut",0.37,0.37,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: cut = val working point",0.37,0.37,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: cut held by the stored table",1,1,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: run = val entry's run",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: cut = preregistered cut",0.34,0.34,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: cut = val working point",0.34,0.34,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: cut held by the stored table",1,1,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: run = val entry's run",/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2,/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: cut = preregistered cut",0.34,0.34,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: cut = val working point",0.34,0.34,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: cut held by the stored table",1,1,True
+test Canto-L (frozen: learned merging) seed 0 hnl10_100_test: n = 603,603,603,True
+test Canto-L (frozen: learned merging) seed 0 hnl10_100_test: efficiency = k / n,0.9850746268656716,0.9850746268656716,True
+test Canto-L (frozen: learned merging) seed 0 hnl15_200_test: n = 549,549,549,True
+test Canto-L (frozen: learned merging) seed 0 hnl15_200_test: efficiency = k / n,0.9799635701275046,0.9799635701275046,True
+test Canto-L (frozen: learned merging) seed 0 hnl15_100_external: n = 3861,3861,3861,True
+test Canto-L (frozen: learned merging) seed 0 hnl15_100_external: efficiency = k / n,0.9896399896399897,0.9896399896399897,True
+test Canto-L (frozen: learned merging) seed 0 hnl_test_pooled: n = 5013,5013,5013,True
+test Canto-L (frozen: learned merging) seed 0 hnl_test_pooled: efficiency = k / n,0.988031119090365,0.988031119090365,True
+test Canto-L (frozen: learned merging) seed 0: k of the three sets = pooled,4953,4953,True
+test Canto-L (frozen: learned merging) seed 0: n of the three sets = pooled,5013,5013,True
+test Canto-L (frozen: learned merging) seed 1 hnl10_100_test: n = 603,603,603,True
+test Canto-L (frozen: learned merging) seed 1 hnl10_100_test: efficiency = k / n,0.9950248756218906,0.9950248756218906,True
+test Canto-L (frozen: learned merging) seed 1 hnl15_200_test: n = 549,549,549,True
+test Canto-L (frozen: learned merging) seed 1 hnl15_200_test: efficiency = k / n,0.9836065573770492,0.9836065573770492,True
+test Canto-L (frozen: learned merging) seed 1 hnl15_100_external: n = 3861,3861,3861,True
+test Canto-L (frozen: learned merging) seed 1 hnl15_100_external: efficiency = k / n,0.9878269878269879,0.9878269878269879,True
+test Canto-L (frozen: learned merging) seed 1 hnl_test_pooled: n = 5013,5013,5013,True
+test Canto-L (frozen: learned merging) seed 1 hnl_test_pooled: efficiency = k / n,0.988230600438859,0.988230600438859,True
+test Canto-L (frozen: learned merging) seed 1: k of the three sets = pooled,4954,4954,True
+test Canto-L (frozen: learned merging) seed 1: n of the three sets = pooled,5013,5013,True
+test Canto-L (frozen: learned merging) seed 2 hnl10_100_test: n = 603,603,603,True
+test Canto-L (frozen: learned merging) seed 2 hnl10_100_test: efficiency = k / n,0.9933665008291874,0.9933665008291874,True
+test Canto-L (frozen: learned merging) seed 2 hnl15_200_test: n = 549,549,549,True
+test Canto-L (frozen: learned merging) seed 2 hnl15_200_test: efficiency = k / n,0.9781420765027322,0.9781420765027322,True
+test Canto-L (frozen: learned merging) seed 2 hnl15_100_external: n = 3861,3861,3861,True
+test Canto-L (frozen: learned merging) seed 2 hnl15_100_external: efficiency = k / n,0.9891219891219891,0.9891219891219891,True
+test Canto-L (frozen: learned merging) seed 2 hnl_test_pooled: n = 5013,5013,5013,True
+test Canto-L (frozen: learned merging) seed 2 hnl_test_pooled: efficiency = k / n,0.9884300817873529,0.9884300817873529,True
+test Canto-L (frozen: learned merging) seed 2: k of the three sets = pooled,4955,4955,True
+test Canto-L (frozen: learned merging) seed 2: n of the three sets = pooled,5013,5013,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0 hnl10_100_test: n = 603,603,603,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0 hnl10_100_test: efficiency = k / n,0.978441127694859,0.978441127694859,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0 hnl15_200_test: n = 549,549,549,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0 hnl15_200_test: efficiency = k / n,0.9653916211293261,0.9653916211293261,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0 hnl15_100_external: n = 3861,3861,3861,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0 hnl15_100_external: efficiency = k / n,0.9766899766899767,0.9766899766899767,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0 hnl_test_pooled: n = 5013,5013,5013,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0 hnl_test_pooled: efficiency = k / n,0.9756632754837423,0.9756632754837423,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0: k of the three sets = pooled,4891,4891,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 0: n of the three sets = pooled,5013,5013,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1 hnl10_100_test: n = 603,603,603,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1 hnl10_100_test: efficiency = k / n,0.9800995024875622,0.9800995024875622,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1 hnl15_200_test: n = 549,549,549,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1 hnl15_200_test: efficiency = k / n,0.9690346083788707,0.9690346083788707,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1 hnl15_100_external: n = 3861,3861,3861,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1 hnl15_100_external: efficiency = k / n,0.977984977984978,0.977984977984978,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1 hnl_test_pooled: n = 5013,5013,5013,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1 hnl_test_pooled: efficiency = k / n,0.9772591262716936,0.9772591262716936,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1: k of the three sets = pooled,4899,4899,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 1: n of the three sets = pooled,5013,5013,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2 hnl10_100_test: n = 603,603,603,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2 hnl10_100_test: efficiency = k / n,0.9817578772802653,0.9817578772802653,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2 hnl15_200_test: n = 549,549,549,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2 hnl15_200_test: efficiency = k / n,0.9581056466302368,0.9581056466302368,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2 hnl15_100_external: n = 3861,3861,3861,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2 hnl15_100_external: efficiency = k / n,0.9735819735819736,0.9735819735819736,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2 hnl_test_pooled: n = 5013,5013,5013,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2 hnl_test_pooled: efficiency = k / n,0.9728705366048275,0.9728705366048275,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2: k of the three sets = pooled,4877,4877,True
+test acorn (HNL) val-best (MWS-layer + learned merging) seed 2: n of the three sets = pooled,5013,5013,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0 hnl10_100_test: n = 603,603,603,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0 hnl10_100_test: efficiency = k / n,0.9751243781094527,0.9751243781094527,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0 hnl15_200_test: n = 549,549,549,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0 hnl15_200_test: efficiency = k / n,0.941712204007286,0.941712204007286,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0 hnl15_100_external: n = 3861,3861,3861,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0 hnl15_100_external: efficiency = k / n,0.9637399637399637,0.9637399637399637,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0 hnl_test_pooled: n = 5013,5013,5013,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0 hnl_test_pooled: efficiency = k / n,0.9626969878316377,0.9626969878316377,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: k of the three sets = pooled,4826,4826,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 0: n of the three sets = pooled,5013,5013,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1 hnl10_100_test: n = 603,603,603,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1 hnl10_100_test: efficiency = k / n,0.9651741293532339,0.9651741293532339,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1 hnl15_200_test: n = 549,549,549,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1 hnl15_200_test: efficiency = k / n,0.9344262295081968,0.9344262295081968,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1 hnl15_100_external: n = 3861,3861,3861,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1 hnl15_100_external: efficiency = k / n,0.9608909608909609,0.9608909608909609,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1 hnl_test_pooled: n = 5013,5013,5013,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1 hnl_test_pooled: efficiency = k / n,0.9585078795132655,0.9585078795132655,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: k of the three sets = pooled,4805,4805,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 1: n of the three sets = pooled,5013,5013,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2 hnl10_100_test: n = 603,603,603,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2 hnl10_100_test: efficiency = k / n,0.9718076285240465,0.9718076285240465,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2 hnl15_200_test: n = 549,549,549,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2 hnl15_200_test: efficiency = k / n,0.9453551912568307,0.9453551912568307,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2 hnl15_100_external: n = 3861,3861,3861,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2 hnl15_100_external: efficiency = k / n,0.9588189588189588,0.9588189588189588,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2 hnl_test_pooled: n = 5013,5013,5013,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2 hnl_test_pooled: efficiency = k / n,0.9589068422102534,0.9589068422102534,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: k of the three sets = pooled,4807,4807,True
+test acorn (ttbar) val-best (MWS-layer + learned merging) seed 2: n of the three sets = pooled,5013,5013,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0 hnl10_100_test: n = 603",603,603,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0 hnl10_100_test: efficiency = k / n",0.9519071310116086,0.9519071310116086,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0 hnl15_200_test: n = 549",549,549,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0 hnl15_200_test: efficiency = k / n",0.941712204007286,0.941712204007286,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0 hnl15_100_external: n = 3861",3861,3861,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0 hnl15_100_external: efficiency = k / n",0.9453509453509453,0.9453509453509453,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0 hnl_test_pooled: n = 5013",5013,5013,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0 hnl_test_pooled: efficiency = k / n",0.945741073209655,0.945741073209655,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: k of the three sets = pooled",4741,4741,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 0: n of the three sets = pooled",5013,5013,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1 hnl10_100_test: n = 603",603,603,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1 hnl10_100_test: efficiency = k / n",0.9087893864013267,0.9087893864013267,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1 hnl15_200_test: n = 549",549,549,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1 hnl15_200_test: efficiency = k / n",0.8943533697632058,0.8943533697632058,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1 hnl15_100_external: n = 3861",3861,3861,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1 hnl15_100_external: efficiency = k / n",0.9077959077959078,0.9077959077959078,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1 hnl_test_pooled: n = 5013",5013,5013,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1 hnl_test_pooled: efficiency = k / n",0.9064432475563535,0.9064432475563535,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: k of the three sets = pooled",4544,4544,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 1: n of the three sets = pooled",5013,5013,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2 hnl10_100_test: n = 603",603,603,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2 hnl10_100_test: efficiency = k / n",0.9021558872305141,0.9021558872305141,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2 hnl15_200_test: n = 549",549,549,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2 hnl15_200_test: efficiency = k / n",0.8688524590163934,0.8688524590163934,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2 hnl15_100_external: n = 3861",3861,3861,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2 hnl15_100_external: efficiency = k / n",0.9010619010619011,0.9010619010619011,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2 hnl_test_pooled: n = 5013",5013,5013,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2 hnl_test_pooled: efficiency = k / n",0.8976660682226212,0.8976660682226212,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: k of the three sets = pooled",4500,4500,True
+"test acorn (HNL) + CC, preregistered cut (claims' reference) seed 2: n of the three sets = pooled",5013,5013,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0 hnl10_100_test: n = 603",603,603,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0 hnl10_100_test: efficiency = k / n",0.9137645107794361,0.9137645107794361,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0 hnl15_200_test: n = 549",549,549,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0 hnl15_200_test: efficiency = k / n",0.8779599271402551,0.8779599271402551,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0 hnl15_100_external: n = 3861",3861,3861,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0 hnl15_100_external: efficiency = k / n",0.898989898989899,0.898989898989899,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0 hnl_test_pooled: n = 5013",5013,5013,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0 hnl_test_pooled: efficiency = k / n",0.8984639936165969,0.8984639936165969,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: k of the three sets = pooled",4504,4504,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 0: n of the three sets = pooled",5013,5013,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1 hnl10_100_test: n = 603",603,603,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1 hnl10_100_test: efficiency = k / n",0.9237147595356551,0.9237147595356551,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1 hnl15_200_test: n = 549",549,549,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1 hnl15_200_test: efficiency = k / n",0.8761384335154827,0.8761384335154827,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1 hnl15_100_external: n = 3861",3861,3861,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1 hnl15_100_external: efficiency = k / n",0.8935508935508936,0.8935508935508936,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1 hnl_test_pooled: n = 5013",5013,5013,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1 hnl_test_pooled: efficiency = k / n",0.8952722920406941,0.8952722920406941,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: k of the three sets = pooled",4488,4488,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 1: n of the three sets = pooled",5013,5013,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2 hnl10_100_test: n = 603",603,603,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2 hnl10_100_test: efficiency = k / n",0.9237147595356551,0.9237147595356551,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2 hnl15_200_test: n = 549",549,549,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2 hnl15_200_test: efficiency = k / n",0.8706739526411658,0.8706739526411658,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2 hnl15_100_external: n = 3861",3861,3861,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2 hnl15_100_external: efficiency = k / n",0.898989898989899,0.898989898989899,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2 hnl_test_pooled: n = 5013",5013,5013,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2 hnl_test_pooled: efficiency = k / n",0.8988629563135847,0.8988629563135847,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: k of the three sets = pooled",4506,4506,True
+"test acorn (ttbar) + CC, preregistered cut (= best cut) seed 2: n of the three sets = pooled",5013,5013,True
+test pooled Canto-L (frozen: learned merging): eff_primary = v3 test table,0.9882306004388589,0.9882306004388588,True
+test pooled Canto-L (frozen: learned merging): eff_primary_sd = v3 test table,0.00019948134849395727,0.0001994813484939,True
+test pooled Canto-L (frozen: learned merging): primary_sigma_total = v3 test table,0.001380734349351048,0.001380734349351,True
+test pooled Canto-L (frozen: learned merging): primary_sigma_boot = v3 test table,0.0013759226264627696,0.0013759226264627,True
+test pooled acorn (HNL) val-best (MWS-layer + learned merging): eff_primary = v3 test table,0.9752643127867545,0.9752643127867544,True
+test pooled acorn (HNL) val-best (MWS-layer + learned merging): eff_primary_sd = v3 test table,0.0022213302863874143,0.0022213302863874,True
+test pooled acorn (HNL) val-best (MWS-layer + learned merging): primary_sigma_total = v3 test table,0.002350934456191468,0.0023509344561914,True
+test pooled acorn (HNL) val-best (MWS-layer + learned merging): primary_sigma_boot = v3 test table,0.0019703104840526047,0.0019703104840526,True
+test pooled acorn (ttbar) val-best (MWS-layer + learned merging): eff_primary = v3 test table,0.9600372365183856,0.9600372365183856,True
+test pooled acorn (ttbar) val-best (MWS-layer + learned merging): eff_primary_sd = v3 test table,0.0023120338653784753,0.0023120338653784,True
+test pooled acorn (ttbar) val-best (MWS-layer + learned merging): primary_sigma_total = v3 test table,0.0028049006087847187,0.0028049006087847,True
+test pooled acorn (ttbar) val-best (MWS-layer + learned merging): primary_sigma_boot = v3 test table,0.002466907759444721,0.0024669077594447,True
+"test pooled acorn (HNL) + CC, preregistered cut (claims' reference): eff_primary = v3 test table",0.9166167963295432,0.9166167963295432,True
+"test pooled acorn (HNL) + CC, preregistered cut (claims' reference): eff_primary_sd = v3 test table",0.025601315339376266,0.0256013153393762,True
+"test pooled acorn (HNL) + CC, preregistered cut (claims' reference): primary_sigma_total = v3 test table",0.015155553601081478,0.0151555536010814,True
+"test pooled acorn (HNL) + CC, preregistered cut (claims' reference): primary_sigma_boot = v3 test table",0.003348883782176722,0.0033488837821767,True
+"test pooled acorn (ttbar) + CC, preregistered cut (= best cut): eff_primary = v3 test table",0.8975330806569586,0.8975330806569586,True
+"test pooled acorn (ttbar) + CC, preregistered cut (= best cut): eff_primary_sd = v3 test table",0.001968036250674797,0.0019680362506747,True
+"test pooled acorn (ttbar) + CC, preregistered cut (= best cut): primary_sigma_total = v3 test table",0.0039058279907451085,0.0039058279907451,True
+"test pooled acorn (ttbar) + CC, preregistered cut (= best cut): primary_sigma_boot = v3 test table",0.0037369020233295656,0.0037369020233295,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): value_new = v3 test differences,0.9882306004388589,0.9882306004388588,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma_new = v3 test differences,0.001380734349351048,0.001380734349351,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): s_seeds_new = v3 test differences,0.00019948134849395727,0.0001994813484939,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): value_base = v3 test differences,0.9752643127867545,0.9752643127867544,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma_base = v3 test differences,0.002350934456191468,0.0023509344561914,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): s_seeds_base = v3 test differences,0.0022213302863874143,0.0022213302863874,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): difference = v3 test differences,0.012966287652104391,0.0129662876521043,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma_boot = v3 test differences,0.0019029846497944816,0.0019029846497944,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma_seeds = v3 test differences,0.0012876465676598995,0.0012876465676598,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): sigma = v3 test differences,0.0022976910716107474,0.0022976910716107,True
+test pooled Canto-L - acorn (HNL) val-best (MWS-layer + learned merging): z = v3 test differences,5.643181458251762,5.643181458251762,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): value_new = v3 test differences,0.9882306004388589,0.9882306004388588,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_new = v3 test differences,0.001380734349351048,0.001380734349351,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): s_seeds_new = v3 test differences,0.00019948134849395727,0.0001994813484939,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): value_base = v3 test differences,0.9600372365183856,0.9600372365183856,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_base = v3 test differences,0.0028049006087847187,0.0028049006087847,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): s_seeds_base = v3 test differences,0.0023120338653784753,0.0023120338653784,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): difference = v3 test differences,0.028193363920473336,0.0281933639204733,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_boot = v3 test differences,0.0022830405538360756,0.002283040553836,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_seeds = v3 test differences,0.0013398125992160124,0.001339812599216,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): sigma = v3 test differences,0.002647144116114214,0.0026471441161142,True
+test pooled Canto-L - acorn (ttbar) val-best (MWS-layer + learned merging): z = v3 test differences,10.650483193887771,10.650483193887773,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): value_new = v3 test differences",0.9882306004388589,0.9882306004388588,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_new = v3 test differences",0.001380734349351048,0.001380734349351,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): s_seeds_new = v3 test differences",0.00019948134849395727,0.0001994813484939,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): value_base = v3 test differences",0.9166167963295432,0.9166167963295432,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_base = v3 test differences",0.015155553601081478,0.0151555536010814,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): s_seeds_base = v3 test differences",0.025601315339376266,0.0256013153393762,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): difference = v3 test differences",0.07161380410931573,0.0716138041093157,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_boot = v3 test differences",0.0033974760776770275,0.003397476077677,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_seeds = v3 test differences",0.014781374991461151,0.0147813749914611,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): sigma = v3 test differences",0.015166802244922322,0.0151668022449223,True
+"test pooled Canto-L - acorn (HNL) + CC, preregistered cut (claims' reference): z = v3 test differences",4.721747073170367,4.721747073170367,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): value_new = v3 test differences",0.9882306004388589,0.9882306004388588,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_new = v3 test differences",0.001380734349351048,0.001380734349351,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): s_seeds_new = v3 test differences",0.00019948134849395727,0.0001994813484939,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): value_base = v3 test differences",0.8975330806569586,0.8975330806569586,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_base = v3 test differences",0.0039058279907451085,0.0039058279907451,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): s_seeds_base = v3 test differences",0.001968036250674797,0.0019680362506747,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): difference = v3 test differences",0.09069751978190033,0.0906975197819003,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_boot = v3 test differences",0.0036875913618725923,0.0036875913618725,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_seeds = v3 test differences",0.0011420682251026104,0.0011420682251026,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): sigma = v3 test differences",0.0038603950423429967,0.0038603950423429,True
+"test pooled Canto-L - acorn (ttbar) + CC, preregistered cut (= best cut): z = v3 test differences",23.49436230931773,23.49436230931773,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): n_per_seed = strong_baselines.per_set,603,603.0,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): value_new = strong_baselines.per_set,0.9911553344389166,0.9911553344389166,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): sigma_new = strong_baselines.per_set,0.004551886675353682,0.004551886675353682,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): value_base = strong_baselines.per_set,0.9800995024875622,0.9800995024875622,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): sigma_base = strong_baselines.per_set,0.005308083560939929,0.005308083560939929,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): difference = strong_baselines.per_set,0.0110558319513544,0.0110558319513544,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): sigma = strong_baselines.per_set,0.006042647802792322,0.006042647802792322,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): z = strong_baselines.per_set,1.8296336824802983,1.8296336824802983,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): n_per_seed = strong_baselines.per_set,603,603.0,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): value_new = strong_baselines.per_set,0.9911553344389166,0.9911553344389166,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_new = strong_baselines.per_set,0.004551886675353682,0.004551886675353682,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): value_base = strong_baselines.per_set,0.970702045328911,0.970702045328911,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_base = strong_baselines.per_set,0.00712225631587962,0.00712225631587962,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): difference = strong_baselines.per_set,0.020453289110005546,0.020453289110005546,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): sigma = strong_baselines.per_set,0.007784105637943103,0.007784105637943103,True
+test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): z = strong_baselines.per_set,2.627570855450285,2.627570855450285,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): n_per_seed = strong_baselines.per_set",603,603.0,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): value_new = strong_baselines.per_set",0.9911553344389166,0.9911553344389166,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_new = strong_baselines.per_set",0.004551886675353682,0.004551886675353682,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): value_base = strong_baselines.per_set",0.9209508015478165,0.9209508015478165,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_base = strong_baselines.per_set",0.01842084714630748,0.01842084714630748,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): difference = strong_baselines.per_set",0.07020453289110007,0.07020453289110007,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): sigma = strong_baselines.per_set",0.0187171639944444,0.0187171639944444,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): z = strong_baselines.per_set",3.750810374474363,3.750810374474363,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): n_per_seed = strong_baselines.per_set",603,603.0,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): value_new = strong_baselines.per_set",0.9911553344389166,0.9911553344389166,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_new = strong_baselines.per_set",0.004551886675353682,0.004551886675353682,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): value_base = strong_baselines.per_set",0.9203980099502488,0.9203980099502488,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_base = strong_baselines.per_set",0.010441442585130642,0.010441442585130642,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): difference = strong_baselines.per_set",0.07075732448866778,0.07075732448866778,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): sigma = strong_baselines.per_set",0.010993353098792359,0.010993353098792359,True
+"test hnl10_100_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): z = strong_baselines.per_set",6.436373311473149,6.436373311473149,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): n_per_seed = strong_baselines.per_set,549,549.0,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): value_new = strong_baselines.per_set,0.9805707346690954,0.9805707346690954,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): sigma_new = strong_baselines.per_set,0.005514984210088306,0.005514984210088306,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): value_base = strong_baselines.per_set,0.9641772920461444,0.9641772920461444,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): sigma_base = strong_baselines.per_set,0.007606977118889912,0.007606977118889912,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): difference = strong_baselines.per_set,0.01639344262295095,0.01639344262295095,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): sigma = strong_baselines.per_set,0.007888930314124874,0.007888930314124874,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): z = strong_baselines.per_set,2.078031110706989,2.078031110706989,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): n_per_seed = strong_baselines.per_set,549,549.0,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): value_new = strong_baselines.per_set,0.9805707346690954,0.9805707346690954,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_new = strong_baselines.per_set,0.005514984210088306,0.005514984210088306,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): value_base = strong_baselines.per_set,0.9404978749241044,0.9404978749241044,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_base = strong_baselines.per_set,0.010105283356061076,0.010105283356061076,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): difference = strong_baselines.per_set,0.040072859744990974,0.040072859744990974,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): sigma = strong_baselines.per_set,0.00915486739822998,0.00915486739822998,True
+test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): z = strong_baselines.per_set,4.377219024793165,4.377219024793165,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): n_per_seed = strong_baselines.per_set",549,549.0,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): value_new = strong_baselines.per_set",0.9805707346690954,0.9805707346690954,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_new = strong_baselines.per_set",0.005514984210088306,0.005514984210088306,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): value_base = strong_baselines.per_set",0.901639344262295,0.901639344262295,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_base = strong_baselines.per_set",0.023669319238818036,0.023669319238818036,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): difference = strong_baselines.per_set",0.07893139040680042,0.07893139040680042,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): sigma = strong_baselines.per_set",0.023675673912406017,0.023675673912406017,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): z = strong_baselines.per_set",3.3338603453834734,3.3338603453834734,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): n_per_seed = strong_baselines.per_set",549,549.0,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): value_new = strong_baselines.per_set",0.9805707346690954,0.9805707346690954,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_new = strong_baselines.per_set",0.005514984210088306,0.005514984210088306,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): value_base = strong_baselines.per_set",0.8749241044323011,0.8749241044323011,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_base = strong_baselines.per_set",0.012464830489417477,0.012464830489417477,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): difference = strong_baselines.per_set",0.10564663023679433,0.10564663023679433,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): sigma = strong_baselines.per_set",0.01205728241760657,0.01205728241760657,True
+"test hnl15_200_test Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): z = strong_baselines.per_set",8.762059855421857,8.762059855421857,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): n_per_seed = strong_baselines.per_set,3861,3861.0,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): value_new = strong_baselines.per_set,0.988862988862989,0.988862988862989,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): sigma_new = strong_baselines.per_set,0.0016003625195173678,0.0016003625195173678,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): value_base = strong_baselines.per_set,0.9760856427523095,0.9760856427523095,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): sigma_base = strong_baselines.per_set,0.002553345658623527,0.002553345658623527,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): difference = strong_baselines.per_set,0.012777346110679488,0.012777346110679488,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): sigma = strong_baselines.per_set,0.0025327586041014026,0.0025327586041014026,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) val-best (MWS-layer + learned merging): z = strong_baselines.per_set,5.0448337595176245,5.0448337595176245,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): n_per_seed = strong_baselines.per_set,3861,3861.0,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): value_new = strong_baselines.per_set,0.988862988862989,0.988862988862989,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_new = strong_baselines.per_set,0.0016003625195173678,0.0016003625195173678,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): value_base = strong_baselines.per_set,0.9611499611499612,0.9611499611499612,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): sigma_base = strong_baselines.per_set,0.0030265089426845856,0.0030265089426845856,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): difference = strong_baselines.per_set,0.02771302771302775,0.02771302771302775,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): sigma = strong_baselines.per_set,0.0029699630247184616,0.0029699630247184616,True
+test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) val-best (MWS-layer + learned merging): z = strong_baselines.per_set,9.331101930353093,9.331101930353093,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): n_per_seed = strong_baselines.per_set",3861,3861.0,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): value_new = strong_baselines.per_set",0.988862988862989,0.988862988862989,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_new = strong_baselines.per_set",0.0016003625195173678,0.0016003625195173678,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): value_base = strong_baselines.per_set",0.9180695847362514,0.9180695847362514,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): sigma_base = strong_baselines.per_set",0.014277484062883192,0.014277484062883192,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): difference = strong_baselines.per_set",0.07079340412673751,0.07079340412673751,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): sigma = strong_baselines.per_set",0.014318190300421847,0.014318190300421847,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (HNL) + CC, preregistered cut (claims' reference): z = strong_baselines.per_set",4.944298311543728,4.944298311543728,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): n_per_seed = strong_baselines.per_set",3861,3861.0,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): value_new = strong_baselines.per_set",0.988862988862989,0.988862988862989,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_new = strong_baselines.per_set",0.0016003625195173678,0.0016003625195173678,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): value_base = strong_baselines.per_set",0.8971768971768972,0.8971768971768972,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): sigma_base = strong_baselines.per_set",0.004544858928135547,0.004544858928135547,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): difference = strong_baselines.per_set",0.09168609168609176,0.09168609168609176,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): sigma = strong_baselines.per_set",0.004529808964940341,0.004529808964940341,True
+"test hnl15_100_external Canto-L (frozen: learned merging) - acorn (ttbar) + CC, preregistered cut (= best cut): z = strong_baselines.per_set",20.240608907731122,20.240608907731122,True
+test hnl10_100_test Canto-L - acorn (HNL) val-best: n_per_seed = results/strong_baselines_v3_test_per_set.csv,603.0,603.0,True
+test hnl10_100_test Canto-L - acorn (HNL) val-best: value_new = results/strong_baselines_v3_test_per_set.csv,0.9911553344389166,0.9911553344389166,True
+test hnl10_100_test Canto-L - acorn (HNL) val-best: sigma_new = results/strong_baselines_v3_test_per_set.csv,0.004551886675353682,0.0045518866753536,True
+test hnl10_100_test Canto-L - acorn (HNL) val-best: value_base = results/strong_baselines_v3_test_per_set.csv,0.9800995024875622,0.9800995024875622,True
+test hnl10_100_test Canto-L - acorn (HNL) val-best: sigma_base = results/strong_baselines_v3_test_per_set.csv,0.005308083560939929,0.0053080835609399,True
+test hnl10_100_test Canto-L - acorn (HNL) val-best: difference = results/strong_baselines_v3_test_per_set.csv,0.0110558319513544,0.0110558319513544,True
+test hnl10_100_test Canto-L - acorn (HNL) val-best: sigma = results/strong_baselines_v3_test_per_set.csv,0.006042647802792322,0.0060426478027923,True
+test hnl10_100_test Canto-L - acorn (HNL) val-best: z = results/strong_baselines_v3_test_per_set.csv,1.8296336824802983,1.8296336824802983,True
+test hnl15_200_test Canto-L - acorn (HNL) val-best: n_per_seed = results/strong_baselines_v3_test_per_set.csv,549.0,549.0,True
+test hnl15_200_test Canto-L - acorn (HNL) val-best: value_new = results/strong_baselines_v3_test_per_set.csv,0.9805707346690954,0.9805707346690954,True
+test hnl15_200_test Canto-L - acorn (HNL) val-best: sigma_new = results/strong_baselines_v3_test_per_set.csv,0.005514984210088306,0.0055149842100883,True
+test hnl15_200_test Canto-L - acorn (HNL) val-best: value_base = results/strong_baselines_v3_test_per_set.csv,0.9641772920461444,0.9641772920461444,True
+test hnl15_200_test Canto-L - acorn (HNL) val-best: sigma_base = results/strong_baselines_v3_test_per_set.csv,0.007606977118889912,0.0076069771188899,True
+test hnl15_200_test Canto-L - acorn (HNL) val-best: difference = results/strong_baselines_v3_test_per_set.csv,0.01639344262295095,0.0163934426229509,True
+test hnl15_200_test Canto-L - acorn (HNL) val-best: sigma = results/strong_baselines_v3_test_per_set.csv,0.007888930314124874,0.0078889303141248,True
+test hnl15_200_test Canto-L - acorn (HNL) val-best: z = results/strong_baselines_v3_test_per_set.csv,2.078031110706989,2.078031110706989,True
+test hnl15_100_external Canto-L - acorn (HNL) val-best: n_per_seed = results/strong_baselines_v3_test_per_set.csv,3861.0,3861.0,True
+test hnl15_100_external Canto-L - acorn (HNL) val-best: value_new = results/strong_baselines_v3_test_per_set.csv,0.988862988862989,0.988862988862989,True
+test hnl15_100_external Canto-L - acorn (HNL) val-best: sigma_new = results/strong_baselines_v3_test_per_set.csv,0.0016003625195173678,0.0016003625195173,True
+test hnl15_100_external Canto-L - acorn (HNL) val-best: value_base = results/strong_baselines_v3_test_per_set.csv,0.9760856427523095,0.9760856427523096,True
+test hnl15_100_external Canto-L - acorn (HNL) val-best: sigma_base = results/strong_baselines_v3_test_per_set.csv,0.002553345658623527,0.0025533456586235,True
+test hnl15_100_external Canto-L - acorn (HNL) val-best: difference = results/strong_baselines_v3_test_per_set.csv,0.012777346110679488,0.0127773461106794,True
+test hnl15_100_external Canto-L - acorn (HNL) val-best: sigma = results/strong_baselines_v3_test_per_set.csv,0.0025327586041014026,0.0025327586041014,True
+test hnl15_100_external Canto-L - acorn (HNL) val-best: z = results/strong_baselines_v3_test_per_set.csv,5.0448337595176245,5.0448337595176245,True
+change Canto-L (frozen: learned merging) hnl10_100: val = model row,0.9903660886319846,0.9903660886319846,True
+change Canto-L (frozen: learned merging) hnl10_100: test = model row,0.9911553344389166,0.9911553344389166,True
+change Canto-L (frozen: learned merging) hnl10_100: change = test - val,0.0007892458069319597,0.0007892458069319597,True
+change Canto-L (frozen: learned merging) hnl10_100: bootstrap sds = model rows,2.260780277098203e-05,2.260780277098203e-05,True
+change acorn (HNL) val-best (MWS-layer + learned merging) hnl10_100: val = model row,0.9865125240847784,0.9865125240847784,True
+change acorn (HNL) val-best (MWS-layer + learned merging) hnl10_100: test = model row,0.9800995024875622,0.9800995024875622,True
+change acorn (HNL) val-best (MWS-layer + learned merging) hnl10_100: change = test - val,-0.00641302159721624,-0.00641302159721624,True
+change acorn (HNL) val-best (MWS-layer + learned merging) hnl10_100: bootstrap sds = model rows,3.985251468875507e-05,3.985251468875507e-05,True
+change acorn (ttbar) val-best (MWS-layer + learned merging) hnl10_100: val = model row,0.9773603082851637,0.9773603082851637,True
+change acorn (ttbar) val-best (MWS-layer + learned merging) hnl10_100: test = model row,0.970702045328911,0.970702045328911,True
+change acorn (ttbar) val-best (MWS-layer + learned merging) hnl10_100: change = test - val,-0.006658262956252751,-0.006658262956252714,True
+change acorn (ttbar) val-best (MWS-layer + learned merging) hnl10_100: bootstrap sds = model rows,6.493024930725114e-05,6.493024930725114e-05,True
+"change acorn (HNL) + CC, preregistered cut (claims' reference) hnl10_100: val = model row",0.9330443159922929,0.9330443159922929,True
+"change acorn (HNL) + CC, preregistered cut (claims' reference) hnl10_100: test = model row",0.9209508015478165,0.9209508015478165,True
+"change acorn (HNL) + CC, preregistered cut (claims' reference) hnl10_100: change = test - val",-0.012093514444476408,-0.012093514444476372,True
+"change acorn (HNL) + CC, preregistered cut (claims' reference) hnl10_100: bootstrap sds = model rows",0.00016212469137927488,0.00016212469137927488,True
+"change acorn (ttbar) + CC, preregistered cut (= best cut) hnl10_100: val = model row",0.9272639691714836,0.9272639691714836,True
+"change acorn (ttbar) + CC, preregistered cut (= best cut) hnl10_100: test = model row",0.9203980099502488,0.9203980099502488,True
+"change acorn (ttbar) + CC, preregistered cut (= best cut) hnl10_100: change = test - val",-0.006865959221234859,-0.006865959221234785,True
+"change acorn (ttbar) + CC, preregistered cut (= best cut) hnl10_100: bootstrap sds = model rows",0.00015721479950182447,0.00015721479950182447,True
+change Canto-L (frozen: learned merging) hnl15_200: val = model row,0.9786124152321336,0.9786124152321336,True
+change Canto-L (frozen: learned merging) hnl15_200: test = model row,0.9805707346690954,0.9805707346690954,True
+change Canto-L (frozen: learned merging) hnl15_200: change = test - val,0.0019583194369617862,0.0019583194369617862,True
+change Canto-L (frozen: learned merging) hnl15_200: bootstrap sds = model rows,5.6435027359041076e-05,5.6435027359041076e-05,True
+change acorn (HNL) val-best (MWS-layer + learned merging) hnl15_200: val = model row,0.971830985915493,0.971830985915493,True
+change acorn (HNL) val-best (MWS-layer + learned merging) hnl15_200: test = model row,0.9641772920461444,0.9641772920461444,True
+change acorn (HNL) val-best (MWS-layer + learned merging) hnl15_200: change = test - val,-0.0076536938693484435,-0.0076536938693485546,True
+change acorn (HNL) val-best (MWS-layer + learned merging) hnl15_200: bootstrap sds = model rows,7.91253441699449e-05,7.91253441699449e-05,True
+change acorn (ttbar) val-best (MWS-layer + learned merging) hnl15_200: val = model row,0.9494001043296819,0.9494001043296819,True
+change acorn (ttbar) val-best (MWS-layer + learned merging) hnl15_200: test = model row,0.9404978749241044,0.9404978749241044,True
+change acorn (ttbar) val-best (MWS-layer + learned merging) hnl15_200: change = test - val,-0.008902229405577352,-0.0089022294055775,True
+change acorn (ttbar) val-best (MWS-layer + learned merging) hnl15_200: bootstrap sds = model rows,0.00014598207930048703,0.00014598207930048703,True
+"change acorn (HNL) + CC, preregistered cut (claims' reference) hnl15_200: val = model row",0.9227960354720919,0.9227960354720919,True
+"change acorn (HNL) + CC, preregistered cut (claims' reference) hnl15_200: test = model row",0.901639344262295,0.901639344262295,True
+"change acorn (HNL) + CC, preregistered cut (claims' reference) hnl15_200: change = test - val",-0.021156691209796758,-0.021156691209796907,True
+"change acorn (HNL) + CC, preregistered cut (claims' reference) hnl15_200: bootstrap sds = model rows",0.00017584197598200413,0.00017584197598200413,True
+"change acorn (ttbar) + CC, preregistered cut (= best cut) hnl15_200: val = model row",0.89358372456964,0.89358372456964,True
+"change acorn (ttbar) + CC, preregistered cut (= best cut) hnl15_200: test = model row",0.8749241044323011,0.8749241044323011,True
+"change acorn (ttbar) + CC, preregistered cut (= best cut) hnl15_200: change = test - val",-0.018659620137338906,-0.018659620137338906,True
+"change acorn (ttbar) + CC, preregistered cut (= best cut) hnl15_200: bootstrap sds = model rows",0.00025721015076534076,0.00025721015076534076,True

@@ -1,0 +1,19 @@
+run,key,family,working_point,eff_primary,fake_rate_hnl,n_primary,eligible,tied,chosen,arm,seed
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0,acwalk,acwalk,"acwalk 0.002,0.002,0.6 (trackbuild_val_fb3_all)",0.9556724267468069,0.02687985912543222,1331.0,True,False,False,i,0
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0,lmerge,mwslmerge,mwslmerge 0.05 (trackbuild_val_fb3_all),0.9676934635612322,0.013784814890850613,1331.0,True,True,True,i,0
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s0,cc,cc,CC 0.34,0.918106686701728,0.02860231364036579,1331.0,True,False,False,i,0
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1,acwalk,acwalk,"acwalk 0.01,0.01,0.6 (trackbuild_val_fb3_all)",0.9338842975206612,0.025722220558092167,1331.0,True,False,False,i,1
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1,lmerge,mwslmerge,mwslmerge 0.03 (trackbuild_val_fb3_all),0.9631855747558227,0.014706133898942902,1331.0,True,True,True,i,1
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s1,cc,cc,CC 0.34,0.9151014274981217,0.030580159529697032,1331.0,True,False,False,i,1
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2,acwalk,acwalk,"acwalk 0.01,0.02,0.6 (trackbuild_val_fb3_all)",0.9436513899323816,0.02209911663422668,1331.0,True,False,False,i,2
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2,lmerge,mwslmerge,mwslmerge 0.05 (trackbuild_val_fb3_all),0.9609316303531179,0.014485627674902838,1331.0,True,True,True,i,2
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armi_s2,cc,cc,CC 0.34,0.9015777610818934,0.030392951449711103,1331.0,True,False,False,i,2
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0,acwalk,acwalk,"acwalk 0.01,0.15,0.6 (trackbuild_val_fb3_all)",0.9797145003756574,0.016818473380372033,1331.0,True,True,False,ii,0
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0,lmerge,mwslmerge,mwslmerge 0.1 (trackbuild_val_fb3_all),0.9797145003756574,0.015127306903622692,1331.0,True,True,True,ii,0
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s0,cc,cc,CC 0.33,0.9519158527422991,0.029463427422878614,1331.0,True,False,False,ii,0
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1,acwalk,acwalk,"acwalk 0.01,0.2,0.8 (trackbuild_val_fb3_all)",0.9827197595792637,0.016107858941850073,1331.0,True,True,False,ii,1
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1,lmerge,mwslmerge,mwslmerge 0.1 (trackbuild_val_fb3_all),0.9819684447783621,0.014976633717502926,1331.0,True,True,True,ii,1
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s1,cc,cc,CC 0.40,0.9489105935386927,0.030250991907433626,1331.0,True,False,False,ii,1
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2,acwalk,acwalk,"acwalk 0.01,0.2,0.8 (trackbuild_val_fb3_all)",0.9737039819684448,0.015945135386050253,1331.0,True,True,False,ii,2
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2,lmerge,mwslmerge,mwslmerge 0.1 (trackbuild_val_fb3_all),0.976709241172051,0.0147173893523408,1331.0,True,True,True,ii,2
+/pub/jinboz1/hnl_lrt/hpc3_v1/runs/baseline_v1/armii_s2,cc,cc,CC 0.41,0.9564237415477085,0.030034577843918237,1331.0,True,False,False,ii,2
