@@ -13,7 +13,7 @@ an unedited copy of an output of that analysis.
 | Fig. 2 (displacement of the targets) | the histograms in `sample_truth_v1_hist.csv`, the counts and the quoted fractions in `sample_truth_v1.md` |
 | Fig. 3 (losses of the standard tracker, truncation probe) | the drawn points in `figures/fig03_bars.csv`; the losses and the probe quoted with it in `paper1_headroom_val_v1_losses.csv` and `probe_dense_v1.csv` |
 | Fig. 4 (diagram of the pipeline) | no file here |
-| Fig. 5 (efficiency in the HNL test sets) | the drawn points in `figures/fig05_rv_d0_rebinned.csv`, read from `fig5_rebin_v1.csv` (five bins per panel; paired differences in `fig5_rebin_v1_differences.csv`). The same efficiencies in the finer bins of `../docs/preregistration.md` are in `test_binned_v1.md` and `figures/fig08_test_rv_pts.csv` |
+| Fig. 5 (efficiency in the HNL test sets) | the drawn points in `figures/fig05_rv_d0_ge100_lines.csv`, read from `fig5_rebin_v2.csv` (four bins per panel, binnings `rv_4` and `d0_4`; paired differences in `fig5_rebin_v2_differences.csv`). The same efficiencies in the finer bins of `../docs/preregistration.md` are in `test_binned_v1.md` and `figures/fig08_test_rv_pts.csv`. `fig5_rebin_v1.csv`, `fig5_rebin_v1_differences.csv` and `figures/fig05_rv_d0_rebinned.csv` hold five bins per panel and are not used in the paper |
 
 Other numbers of the text are read from `working_points_v1.json` (the fake-rate limit FR* and the reference cut),
 `ceiling_table2_v1.md` (the graph ceilings), `strong_baselines_v3.csv` (the efficiencies quoted in the abstract) and

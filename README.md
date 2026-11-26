@@ -31,8 +31,8 @@ HNL samples. CC is the connected-components track builder, and LM is the builder
 same-layer repulsion, followed by learned merging of track fragments). The standard tracker is acorn (ttbar) with
 CC. The cut rule and the limit on the fake rate are defined in the paper and in `docs/preregistration.md`.
 
-The benchmark has no pileup, a fast detector simulation and a uniform magnetic field. It holds 143 HNL daughters
-with |d0| >= 200 mm in the test sets, and for these the lead of Canto over acorn (HNL) with LM is not established.
+The benchmark has no pileup, a fast detector simulation and a uniform magnetic field. It holds 620 HNL daughters
+with |d0| >= 100 mm in the test sets, and for these the lead of Canto over acorn (HNL) with LM is not established.
 
 ## Layout
 
@@ -158,9 +158,10 @@ The reported analysis and the preregistration differ in these points:
 - The comparisons fixed in advance name CC only. The rows of the tables with CC+walk or LM as the builder of the
   acorn models are not among them, and `results/strong_baselines_v3.csv` marks the working points that were
   evaluated after the freeze on the stored test scores ("post-freeze").
-- Fig. 5 of the paper is drawn in five bins per panel, with a last bin from 200 mm on
-  (`results/fig5_rebin_v1.csv`). These bins are coarser than those of Section 2 of the preregistration, and the edge
-  at |d0| = 200 mm is not among them. `results/test_binned_v1.csv` holds the bins of Section 2.
+- Fig. 5 of the paper is drawn in four bins per panel, with a last bin from 100 mm on
+  (`results/fig5_rebin_v2.csv`, binnings `rv_4` and `d0_4`). These bins are coarser than those of Section 2 of the
+  preregistration. `results/test_binned_v1.csv` holds the bins of Section 2, and `results/fig5_rebin_v1.csv` holds
+  an intermediate choice with a last bin from 200 mm on, which the paper does not use.
 - Section 7 of the preregistration states that every final model is evaluated on each test set once. This snapshot
   does not document the uses of the test sets.
 
